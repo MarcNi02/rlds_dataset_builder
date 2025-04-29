@@ -1,126 +1,357 @@
-task,subtask,episode,original,cropped_traj
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_09_15,0 - 82,0 - 82
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_09_15,0 - 82,0 - 74
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_09_41,0 - 85,0 - 85
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_09_41,0 - 85,9 - 75
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_14_39,0 - 97,0 - 97
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_14_39,0 - 97,0 - 85
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_15_07,0 - 93,0 - 93
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_15_07,0 - 93,11 - 80
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_15_37,0 - 108,0 - 108
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_15_37,0 - 108,22 - 97
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_16_17,0 - 94,0 - 94
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_16_17,0 - 94,9 - 82
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_16_54,0 - 80,0 - 80
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_16_54,0 - 80,0 - 70
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_17_28,0 - 83,0 - 83
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_17_28,0 - 83,0 - 71
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_17_58,0 - 96,0 - 96
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_17_58,0 - 96,0 - 83
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_18_36,0 - 107,0 - 107
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_18_36,0 - 107,0 - 90
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_19_14,0 - 100,0 - 100
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_19_14,0 - 100,0 - 90
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_19_50,0 - 94,0 - 94
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_19_50,0 - 94,0 - 82
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_20_28,0 - 100,0 - 100
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_20_28,0 - 100,0 - 87
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_21_07,0 - 97,0 - 97
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_21_07,0 - 97,0 - 82
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_21_47,0 - 102,0 - 102
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_21_47,0 - 102,0 - 88
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_22_25,0 - 91,0 - 91
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_22_25,0 - 91,0 - 75
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_23_00,0 - 93,0 - 93
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_23_00,0 - 93,0 - 79
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_23_38,0 - 96,0 - 96
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_23_38,0 - 96,0 - 84
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_24_13,0 - 96,0 - 96
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_24_13,0 - 96,0 - 83
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_24_50,0 - 97,0 - 97
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_24_50,0 - 97,0 - 83
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_35_16,0 - 105,0 - 105
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_35_16,0 - 105,0 - 47
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_35_16,0 - 105,47 - 70
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_35_16,0 - 105,70
-banana_from_sink_to_right_stove,unknown_4,2025_04_15-01_35_16,0 - 105,- 91
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_35_52,0 - 110,0 - 110
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_35_52,0 - 110,0 - 46
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_35_52,0 - 110,46 - 75
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_35_52,0 - 110,75 - 91
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_36_30,0 - 97,0 - 97
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_36_30,0 - 97,0 - 43
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_36_30,0 - 97,43 - 70
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_36_30,0 - 97,70 - 78
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_37_06,0 - 95,0 - 95
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_37_06,0 - 95,0 - 39
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_37_06,0 - 95,39 - 71
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_37_06,0 - 95,71 - 81
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_38_09,0 - 96,0 - 96
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_38_09,0 - 96,0 - 45
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_38_09,0 - 96,45 - 71
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_38_09,0 - 96,71 - 85
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_38_47,0 - 102,0 - 102
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_38_47,0 - 102,0 - 46
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_38_47,0 - 102,46 - 73
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_38_47,0 - 102,73 - 85
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_39_24,0 - 100,0 - 100
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_39_24,0 - 100,0 - 49
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_39_24,0 - 100,49 - 75
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_39_24,0 - 100,75 - 85
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_40_05,0 - 94,0 - 94
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_40_05,0 - 94,0 - 46
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_40_05,0 - 94,46 - 69
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_40_05,0 - 94,69 - 80
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_40_43,0 - 102,0 - 102
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_40_43,0 - 102,0 - 45
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_40_43,0 - 102,45 - 71
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_40_43,0 - 102,71 - 83
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_41_19,0 - 105,0 - 105
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_41_19,0 - 105,0 - 43
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_41_19,0 - 105,43 - 75
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_41_19,0 - 105,75 - 86
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_41_55,0 - 107,0 - 107
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_41_55,0 - 107,0 - 43
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_41_55,0 - 107,43 - 75
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_41_55,0 - 107,75 - 87
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_42_32,0 - 108,0 - 108
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_42_32,0 - 108,0 - 49
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_42_32,0 - 108,49 - 75
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_42_32,0 - 108,75 - 90
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_44_06,0 - 99,0 - 99
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_44_06,0 - 99,0 - 39
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_44_06,0 - 99,39 - 67
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_44_06,0 - 99,67 - 79
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_44_41,0 - 102,0 - 102
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_44_41,0 - 102,0 - 42
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_44_41,0 - 102,42 - 77
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_44_41,0 - 102,77 - 87
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_45_17,0 - 122,0 - 122
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_45_17,0 - 122,0 - 39
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_45_17,0 - 122,39 - 67
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_45_17,0 - 122,67 - 78
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_45_59,0 - 104,0 - 104
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_45_59,0 - 104,0 - 48
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_45_59,0 - 104,48 - 78
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_45_59,0 - 104,78 - 89
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_46_37,0 - 106,0 - 106
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_46_37,0 - 106,0 - 48
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_46_37,0 - 106,48 - 73
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_46_37,0 - 106,73 - 85
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_47_56,0 - 99,0 - 99
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_47_56,0 - 99,0 - 44
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_47_56,0 - 99,44 - 74
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_47_56,0 - 99,74 - 82
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_48_31,0 - 94,0 - 94
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_48_31,0 - 94,0 - 42
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_48_31,0 - 94,42 - 67
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_48_31,0 - 94,67 - 78
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_50_27,0 - 111,0 - 111
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_50_27,0 - 111,0 - 46
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_50_27,0 - 111,46 - 79
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_50_27,0 - 111,79 - 93
-banana_from_sink_to_right_stove,default_task,2025_04_15-01_51_04,0 - 100,0 - 100
-banana_from_sink_to_right_stove,unknown_1,2025_04_15-01_51_04,0 - 100,0 - 44
-banana_from_sink_to_right_stove,unknown_2,2025_04_15-01_51_04,0 - 100,44 - 71
-banana_from_sink_to_right_stove,unknown_3,2025_04_15-01_51_04,0 - 100,71 - 83
+task,subtask,episode,original_start,original_end,cropped_traj_start,cropped_traj_end,path
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_09_15,0,82,0,74,banana_from_sink_to_right_stove/default_task/2025_04_15-01_09_15
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_09_41,0,85,9,75,banana_from_sink_to_right_stove/default_task/2025_04_15-01_09_41
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_14_39,0,97,0,85,banana_from_sink_to_right_stove/default_task/2025_04_15-01_14_39
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_15_07,0,93,11,80,banana_from_sink_to_right_stove/default_task/2025_04_15-01_15_07
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_15_37,0,108,22,97,banana_from_sink_to_right_stove/default_task/2025_04_15-01_15_37
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_16_17,0,94,9,82,banana_from_sink_to_right_stove/default_task/2025_04_15-01_16_17
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_16_54,0,80,0,70,banana_from_sink_to_right_stove/default_task/2025_04_15-01_16_54
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_17_28,0,83,0,71,banana_from_sink_to_right_stove/default_task/2025_04_15-01_17_28
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_17_58,0,96,0,83,banana_from_sink_to_right_stove/default_task/2025_04_15-01_17_58
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_18_36,0,107,0,90,banana_from_sink_to_right_stove/default_task/2025_04_15-01_18_36
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_19_14,0,100,0,90,banana_from_sink_to_right_stove/default_task/2025_04_15-01_19_14
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_19_50,0,94,0,82,banana_from_sink_to_right_stove/default_task/2025_04_15-01_19_50
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_20_28,0,100,0,87,banana_from_sink_to_right_stove/default_task/2025_04_15-01_20_28
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_21_07,0,97,0,82,banana_from_sink_to_right_stove/default_task/2025_04_15-01_21_07
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_21_47,0,102,0,88,banana_from_sink_to_right_stove/default_task/2025_04_15-01_21_47
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_22_25,0,91,0,75,banana_from_sink_to_right_stove/default_task/2025_04_15-01_22_25
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_23_00,0,93,0,79,banana_from_sink_to_right_stove/default_task/2025_04_15-01_23_00
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_23_38,0,96,0,84,banana_from_sink_to_right_stove/default_task/2025_04_15-01_23_38
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_24_13,0,96,0,83,banana_from_sink_to_right_stove/default_task/2025_04_15-01_24_13
+banana_from_sink_to_right_stove,default_task,2025_04_15-01_24_50,0,97,0,83,banana_from_sink_to_right_stove/default_task/2025_04_15-01_24_50
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_35_16,0,105,0,47,banana_from_sink_to_right_stove/others/2025_04_15-01_35_16
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_35_16,0,105,47,70,banana_from_sink_to_right_stove/others/2025_04_15-01_35_16
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_35_16,0,105,70,91,banana_from_sink_to_right_stove/others/2025_04_15-01_35_16
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_35_52,0,110,0,46,banana_from_sink_to_right_stove/others/2025_04_15-01_35_52
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_35_52,0,110,46,75,banana_from_sink_to_right_stove/others/2025_04_15-01_35_52
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_35_52,0,110,75,91,banana_from_sink_to_right_stove/others/2025_04_15-01_35_52
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_36_30,0,97,0,43,banana_from_sink_to_right_stove/others/2025_04_15-01_36_30
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_36_30,0,97,43,70,banana_from_sink_to_right_stove/others/2025_04_15-01_36_30
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_36_30,0,97,70,78,banana_from_sink_to_right_stove/others/2025_04_15-01_36_30
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_37_06,0,95,0,39,banana_from_sink_to_right_stove/others/2025_04_15-01_37_06
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_37_06,0,95,39,71,banana_from_sink_to_right_stove/others/2025_04_15-01_37_06
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_37_06,0,95,71,81,banana_from_sink_to_right_stove/others/2025_04_15-01_37_06
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_38_09,0,96,0,45,banana_from_sink_to_right_stove/others/2025_04_15-01_38_09
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_38_09,0,96,45,71,banana_from_sink_to_right_stove/others/2025_04_15-01_38_09
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_38_09,0,96,71,85,banana_from_sink_to_right_stove/others/2025_04_15-01_38_09
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_38_47,0,102,0,46,banana_from_sink_to_right_stove/others/2025_04_15-01_38_47
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_38_47,0,102,46,73,banana_from_sink_to_right_stove/others/2025_04_15-01_38_47
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_38_47,0,102,73,85,banana_from_sink_to_right_stove/others/2025_04_15-01_38_47
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_39_24,0,100,0,49,banana_from_sink_to_right_stove/others/2025_04_15-01_39_24
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_39_24,0,100,49,75,banana_from_sink_to_right_stove/others/2025_04_15-01_39_24
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_39_24,0,100,75,85,banana_from_sink_to_right_stove/others/2025_04_15-01_39_24
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_40_05,0,94,0,46,banana_from_sink_to_right_stove/others/2025_04_15-01_40_05
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_40_05,0,94,46,69,banana_from_sink_to_right_stove/others/2025_04_15-01_40_05
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_40_05,0,94,69,80,banana_from_sink_to_right_stove/others/2025_04_15-01_40_05
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_40_43,0,102,0,45,banana_from_sink_to_right_stove/others/2025_04_15-01_40_43
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_40_43,0,102,45,71,banana_from_sink_to_right_stove/others/2025_04_15-01_40_43
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_40_43,0,102,71,83,banana_from_sink_to_right_stove/others/2025_04_15-01_40_43
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_41_19,0,105,0,43,banana_from_sink_to_right_stove/others/2025_04_15-01_41_19
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_41_19,0,105,43,75,banana_from_sink_to_right_stove/others/2025_04_15-01_41_19
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_41_19,0,105,75,86,banana_from_sink_to_right_stove/others/2025_04_15-01_41_19
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_41_55,0,107,0,43,banana_from_sink_to_right_stove/others/2025_04_15-01_41_55
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_41_55,0,107,43,75,banana_from_sink_to_right_stove/others/2025_04_15-01_41_55
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_41_55,0,107,75,87,banana_from_sink_to_right_stove/others/2025_04_15-01_41_55
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_42_32,0,108,0,49,banana_from_sink_to_right_stove/others/2025_04_15-01_42_32
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_42_32,0,108,49,75,banana_from_sink_to_right_stove/others/2025_04_15-01_42_32
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_42_32,0,108,75,90,banana_from_sink_to_right_stove/others/2025_04_15-01_42_32
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_44_06,0,99,0,39,banana_from_sink_to_right_stove/others/2025_04_15-01_44_06
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_44_06,0,99,39,67,banana_from_sink_to_right_stove/others/2025_04_15-01_44_06
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_44_06,0,99,67,79,banana_from_sink_to_right_stove/others/2025_04_15-01_44_06
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_44_41,0,102,0,42,banana_from_sink_to_right_stove/others/2025_04_15-01_44_41
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_44_41,0,102,42,77,banana_from_sink_to_right_stove/others/2025_04_15-01_44_41
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_44_41,0,102,77,87,banana_from_sink_to_right_stove/others/2025_04_15-01_44_41
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_45_17,0,122,0,39,banana_from_sink_to_right_stove/others/2025_04_15-01_45_17
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_45_17,0,122,39,67,banana_from_sink_to_right_stove/others/2025_04_15-01_45_17
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_45_17,0,122,67,78,banana_from_sink_to_right_stove/others/2025_04_15-01_45_17
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_45_59,0,104,0,48,banana_from_sink_to_right_stove/others/2025_04_15-01_45_59
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_45_59,0,104,48,78,banana_from_sink_to_right_stove/others/2025_04_15-01_45_59
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_45_59,0,104,78,89,banana_from_sink_to_right_stove/others/2025_04_15-01_45_59
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_46_37,0,106,0,48,banana_from_sink_to_right_stove/others/2025_04_15-01_46_37
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_46_37,0,106,48,73,banana_from_sink_to_right_stove/others/2025_04_15-01_46_37
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_46_37,0,106,73,85,banana_from_sink_to_right_stove/others/2025_04_15-01_46_37
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_47_56,0,99,0,44,banana_from_sink_to_right_stove/others/2025_04_15-01_47_56
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_47_56,0,99,44,74,banana_from_sink_to_right_stove/others/2025_04_15-01_47_56
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_47_56,0,99,74,82,banana_from_sink_to_right_stove/others/2025_04_15-01_47_56
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_48_31,0,94,0,42,banana_from_sink_to_right_stove/others/2025_04_15-01_48_31
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_48_31,0,94,42,67,banana_from_sink_to_right_stove/others/2025_04_15-01_48_31
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_48_31,0,94,67,78,banana_from_sink_to_right_stove/others/2025_04_15-01_48_31
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_50_27,0,111,0,46,banana_from_sink_to_right_stove/others/2025_04_15-01_50_27
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_50_27,0,111,46,79,banana_from_sink_to_right_stove/others/2025_04_15-01_50_27
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_50_27,0,111,79,93,banana_from_sink_to_right_stove/others/2025_04_15-01_50_27
+banana_from_sink_to_right_stove,grasp_banana,2025_04_15-01_51_04,0,100,0,44,banana_from_sink_to_right_stove/others/2025_04_15-01_51_04
+banana_from_sink_to_right_stove,position_with_banana_above_right_stove,2025_04_15-01_51_04,0,100,44,71,banana_from_sink_to_right_stove/others/2025_04_15-01_51_04
+banana_from_sink_to_right_stove,let_go_of_banana,2025_04_15-01_51_04,0,100,71,83,banana_from_sink_to_right_stove/others/2025_04_15-01_51_04
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_48_25,0,106,9,90,banana_from_tray_to_right_stove/default_task/2025_04_14-14_48_25
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_49_42,0,96,9,84,banana_from_tray_to_right_stove/default_task/2025_04_14-14_49_42
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_50_20,0,92,10,81,banana_from_tray_to_right_stove/default_task/2025_04_14-14_50_20
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_50_55,0,97,9,83,banana_from_tray_to_right_stove/default_task/2025_04_14-14_50_55
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_51_33,0,94,11,83,banana_from_tray_to_right_stove/default_task/2025_04_14-14_51_33
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_52_10,0,94,12,82,banana_from_tray_to_right_stove/default_task/2025_04_14-14_52_10
+banana_from_tray_to_right_stove,default_task,2025_04_14-14_59_11,0,94,10,82,banana_from_tray_to_right_stove/default_task/2025_04_14-14_59_11
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_00_09,0,99,8,84,banana_from_tray_to_right_stove/default_task/2025_04_14-15_00_09
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_00_46,0,86,9,78,banana_from_tray_to_right_stove/default_task/2025_04_14-15_00_46
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_01_21,0,90,9,79,banana_from_tray_to_right_stove/default_task/2025_04_14-15_01_21
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_01_58,0,94,9,82,banana_from_tray_to_right_stove/default_task/2025_04_14-15_01_58
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_02_55,0,84,0,74,banana_from_tray_to_right_stove/default_task/2025_04_14-15_02_55
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_03_29,0,94,7,79,banana_from_tray_to_right_stove/default_task/2025_04_14-15_03_29
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_04_06,0,80,8,68,banana_from_tray_to_right_stove/default_task/2025_04_14-15_04_06
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_04_40,0,89,0,77,banana_from_tray_to_right_stove/default_task/2025_04_14-15_04_40
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_05_24,0,85,0,74,banana_from_tray_to_right_stove/default_task/2025_04_14-15_05_24
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_06_02,0,91,9,80,banana_from_tray_to_right_stove/default_task/2025_04_14-15_06_02
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_06_39,0,81,5,70,banana_from_tray_to_right_stove/default_task/2025_04_14-15_06_39
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_07_11,0,78,0,66,banana_from_tray_to_right_stove/default_task/2025_04_14-15_07_11
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_07_59,0,94,9,83,banana_from_tray_to_right_stove/default_task/2025_04_14-15_07_59
+banana_from_tray_to_right_stove,default_task,2025_04_14-15_08_28,0,94,8,77,banana_from_tray_to_right_stove/default_task/2025_04_14-15_08_28
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_19_01,0,99,0,36,banana_from_tray_to_right_stove/others/2025_04_14-15_19_01
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_19_29,0,98,9,39,banana_from_tray_to_right_stove/others/2025_04_14-15_19_29
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_19_29,0,98,39,55,banana_from_tray_to_right_stove/others/2025_04_14-15_19_29
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_19_29,0,98,55,73,banana_from_tray_to_right_stove/others/2025_04_14-15_19_29
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_19_29,0,98,73,85,banana_from_tray_to_right_stove/others/2025_04_14-15_19_29
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_20_05,0,107,10,45,banana_from_tray_to_right_stove/others/2025_04_14-15_20_05
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_20_05,0,107,45,63,banana_from_tray_to_right_stove/others/2025_04_14-15_20_05
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_20_05,0,107,63,82,banana_from_tray_to_right_stove/others/2025_04_14-15_20_05
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_20_05,0,107,82,90,banana_from_tray_to_right_stove/others/2025_04_14-15_20_05
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_20_42,0,102,8,42,banana_from_tray_to_right_stove/others/2025_04_14-15_20_42
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_20_42,0,102,42,64,banana_from_tray_to_right_stove/others/2025_04_14-15_20_42
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_20_42,0,102,64,77,banana_from_tray_to_right_stove/others/2025_04_14-15_20_42
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_20_42,0,102,77,86,banana_from_tray_to_right_stove/others/2025_04_14-15_20_42
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_21_13,0,100,10,46,banana_from_tray_to_right_stove/others/2025_04_14-15_21_13
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_21_13,0,100,46,62,banana_from_tray_to_right_stove/others/2025_04_14-15_21_13
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_21_13,0,100,62,80,banana_from_tray_to_right_stove/others/2025_04_14-15_21_13
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_21_13,0,100,80,89,banana_from_tray_to_right_stove/others/2025_04_14-15_21_13
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_21_43,0,107,7,49,banana_from_tray_to_right_stove/others/2025_04_14-15_21_43
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_21_43,0,107,49,67,banana_from_tray_to_right_stove/others/2025_04_14-15_21_43
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_21_43,0,107,67,82,banana_from_tray_to_right_stove/others/2025_04_14-15_21_43
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_21_43,0,107,82,90,banana_from_tray_to_right_stove/others/2025_04_14-15_21_43
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_22_23,0,96,0,40,banana_from_tray_to_right_stove/others/2025_04_14-15_22_23
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_22_23,0,96,40,56,banana_from_tray_to_right_stove/others/2025_04_14-15_22_23
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_22_23,0,96,56,69,banana_from_tray_to_right_stove/others/2025_04_14-15_22_23
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_22_23,0,96,69,79,banana_from_tray_to_right_stove/others/2025_04_14-15_22_23
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_23_05,0,104,2,44,banana_from_tray_to_right_stove/others/2025_04_14-15_23_05
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_23_05,0,104,44,62,banana_from_tray_to_right_stove/others/2025_04_14-15_23_05
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_23_05,0,104,62,79,banana_from_tray_to_right_stove/others/2025_04_14-15_23_05
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_23_05,0,104,79,88,banana_from_tray_to_right_stove/others/2025_04_14-15_23_05
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_23_32,0,97,9,41,banana_from_tray_to_right_stove/others/2025_04_14-15_23_32
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_23_32,0,97,41,59,banana_from_tray_to_right_stove/others/2025_04_14-15_23_32
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_23_32,0,97,59,71,banana_from_tray_to_right_stove/others/2025_04_14-15_23_32
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_23_32,0,97,71,81,banana_from_tray_to_right_stove/others/2025_04_14-15_23_32
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_24_07,0,89,0,42,banana_from_tray_to_right_stove/others/2025_04_14-15_24_07
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_24_07,0,89,42,58,banana_from_tray_to_right_stove/others/2025_04_14-15_24_07
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_24_07,0,89,58,68,banana_from_tray_to_right_stove/others/2025_04_14-15_24_07
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_24_07,0,89,68,76,banana_from_tray_to_right_stove/others/2025_04_14-15_24_07
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_40_01,0,87,0,39,banana_from_tray_to_right_stove/others/2025_04_14-15_40_01
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_40_01,0,87,39,55,banana_from_tray_to_right_stove/others/2025_04_14-15_40_01
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_40_01,0,87,55,69,banana_from_tray_to_right_stove/others/2025_04_14-15_40_01
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_40_01,0,87,69,78,banana_from_tray_to_right_stove/others/2025_04_14-15_40_01
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_40_28,0,100,11,47,banana_from_tray_to_right_stove/others/2025_04_14-15_40_28
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_40_28,0,100,47,67,banana_from_tray_to_right_stove/others/2025_04_14-15_40_28
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_40_28,0,100,67,80,banana_from_tray_to_right_stove/others/2025_04_14-15_40_28
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_40_28,0,100,80,89,banana_from_tray_to_right_stove/others/2025_04_14-15_40_28
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_40_58,0,87,9,41,banana_from_tray_to_right_stove/others/2025_04_14-15_40_58
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_40_58,0,87,41,55,banana_from_tray_to_right_stove/others/2025_04_14-15_40_58
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_40_58,0,87,55,72,banana_from_tray_to_right_stove/others/2025_04_14-15_40_58
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_40_58,0,87,72,78,banana_from_tray_to_right_stove/others/2025_04_14-15_40_58
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_41_33,0,94,0,45,banana_from_tray_to_right_stove/others/2025_04_14-15_41_33
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_41_33,0,94,45,64,banana_from_tray_to_right_stove/others/2025_04_14-15_41_33
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_41_33,0,94,64,78,banana_from_tray_to_right_stove/others/2025_04_14-15_41_33
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_41_33,0,94,78,85,banana_from_tray_to_right_stove/others/2025_04_14-15_41_33
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_42_08,0,84,0,36,banana_from_tray_to_right_stove/others/2025_04_14-15_42_08
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_42_08,0,84,36,52,banana_from_tray_to_right_stove/others/2025_04_14-15_42_08
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_42_08,0,84,52,66,banana_from_tray_to_right_stove/others/2025_04_14-15_42_08
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_42_08,0,84,66,74,banana_from_tray_to_right_stove/others/2025_04_14-15_42_08
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_42_34,0,83,8,39,banana_from_tray_to_right_stove/others/2025_04_14-15_42_34
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_42_34,0,83,39,54,banana_from_tray_to_right_stove/others/2025_04_14-15_42_34
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_42_34,0,83,54,66,banana_from_tray_to_right_stove/others/2025_04_14-15_42_34
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_42_34,0,83,66,76,banana_from_tray_to_right_stove/others/2025_04_14-15_42_34
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_43_02,0,74,7,31,banana_from_tray_to_right_stove/others/2025_04_14-15_43_02
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-15_43_02,0,74,31,44,banana_from_tray_to_right_stove/others/2025_04_14-15_43_02
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_43_02,0,74,44,56,banana_from_tray_to_right_stove/others/2025_04_14-15_43_02
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-15_43_02,0,74,56,64,banana_from_tray_to_right_stove/others/2025_04_14-15_43_02
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-17_29_26,0,88,9,37,banana_from_tray_to_right_stove/others/2025_04_14-17_29_26
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-17_29_26,0,88,37,53,banana_from_tray_to_right_stove/others/2025_04_14-17_29_26
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-17_29_26,0,88,53,68,banana_from_tray_to_right_stove/others/2025_04_14-17_29_26
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-17_29_26,0,88,68,75,banana_from_tray_to_right_stove/others/2025_04_14-17_29_26
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-17_29_53,0,92,9,39,banana_from_tray_to_right_stove/others/2025_04_14-17_29_53
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-17_29_53,0,92,39,57,banana_from_tray_to_right_stove/others/2025_04_14-17_29_53
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-17_29_53,0,92,57,73,banana_from_tray_to_right_stove/others/2025_04_14-17_29_53
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-17_29_53,0,92,73,80,banana_from_tray_to_right_stove/others/2025_04_14-17_29_53
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-17_30_30,0,101,0,43,banana_from_tray_to_right_stove/others/2025_04_14-17_30_30
+banana_from_tray_to_right_stove,move_up_with_banana,2025_04_14-17_30_30,0,101,43,64,banana_from_tray_to_right_stove/others/2025_04_14-17_30_30
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-17_30_30,0,101,64,77,banana_from_tray_to_right_stove/others/2025_04_14-17_30_30
+banana_from_tray_to_right_stove,let_go_of_banana_from_tray,2025_04_14-17_30_30,0,101,77,87,banana_from_tray_to_right_stove/others/2025_04_14-17_30_30
+bottle_from_right_stove_to_sink,default_task,2025_04_15-01_55_41,0,114,0,82,bottle_from_right_stove_to_sink/default_task/2025_04_15-01_55_41
+bottle_from_right_stove_to_sink,default_task,2025_04_15-01_56_21,0,123,0,97,bottle_from_right_stove_to_sink/default_task/2025_04_15-01_56_21
+bottle_from_right_stove_to_sink,default_task,2025_04_15-01_57_33,0,125,0,99,bottle_from_right_stove_to_sink/default_task/2025_04_15-01_57_33
+bottle_from_right_stove_to_sink,default_task,2025_04_15-01_58_13,0,122,0,96,bottle_from_right_stove_to_sink/default_task/2025_04_15-01_58_13
+bottle_from_right_stove_to_sink,default_task,2025_04_15-01_58_58,0,121,0,93,bottle_from_right_stove_to_sink/default_task/2025_04_15-01_58_58
+bottle_from_right_stove_to_sink,default_task,2025_04_15-01_59_39,0,124,0,106,bottle_from_right_stove_to_sink/default_task/2025_04_15-01_59_39
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_00_18,0,132,0,104,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_00_18
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_01_02,0,123,0,100,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_01_02
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_01_44,0,111,0,93,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_01_44
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_03_39,0,104,0,92,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_03_39
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_04_16,0,104,0,92,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_04_16
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_04_53,0,90,0,76,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_04_53
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_05_29,0,99,0,86,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_05_29
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_06_03,0,109,0,97,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_06_03
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_06_39,0,107,0,89,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_06_39
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_07_18,0,103,0,91,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_07_18
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_07_55,0,101,0,82,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_07_55
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_08_32,0,101,0,86,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_08_32
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_09_24,0,97,0,82,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_09_24
+bottle_from_right_stove_to_sink,default_task,2025_04_15-02_10_01,0,117,0,99,bottle_from_right_stove_to_sink/default_task/2025_04_15-02_10_01
+pot_from_right_to_left_stove,default_task,2025_04_09-16_44_04,0,97,13,87,pot_from_right_to_left_stove/default_task/2025_04_09-16_44_04
+pot_from_right_to_left_stove,default_task,2025_04_09-16_44_44,0,88,10,71,pot_from_right_to_left_stove/default_task/2025_04_09-16_44_44
+pot_from_right_to_left_stove,default_task,2025_04_09-16_45_22,0,91,10,78,pot_from_right_to_left_stove/default_task/2025_04_09-16_45_22
+pot_from_right_to_left_stove,default_task,2025_04_09-16_46_13,0,86,8,73,pot_from_right_to_left_stove/default_task/2025_04_09-16_46_13
+pot_from_right_to_left_stove,default_task,2025_04_09-16_48_20,0,75,9,63,pot_from_right_to_left_stove/default_task/2025_04_09-16_48_20
+pot_from_right_to_left_stove,default_task,2025_04_09-16_48_55,0,88,8,76,pot_from_right_to_left_stove/default_task/2025_04_09-16_48_55
+pot_from_right_to_left_stove,default_task,2025_04_09-16_49_34,0,97,7,84,pot_from_right_to_left_stove/default_task/2025_04_09-16_49_34
+pot_from_right_to_left_stove,default_task,2025_04_09-16_50_21,0,69,7,57,pot_from_right_to_left_stove/default_task/2025_04_09-16_50_21
+pot_from_right_to_left_stove,default_task,2025_04_09-16_50_55,0,81,7,68,pot_from_right_to_left_stove/default_task/2025_04_09-16_50_55
+pot_from_right_to_left_stove,default_task,2025_04_09-16_51_24,0,81,16,68,pot_from_right_to_left_stove/default_task/2025_04_09-16_51_24
+pot_from_right_to_left_stove,default_task,2025_04_09-16_51_56,0,80,9,65,pot_from_right_to_left_stove/default_task/2025_04_09-16_51_56
+pot_from_right_to_left_stove,default_task,2025_04_09-17_05_15,0,77,8,65,pot_from_right_to_left_stove/default_task/2025_04_09-17_05_15
+pot_from_right_to_left_stove,default_task,2025_04_09-17_05_52,0,86,9,68,pot_from_right_to_left_stove/default_task/2025_04_09-17_05_52
+pot_from_right_to_left_stove,default_task,2025_04_09-17_07_02,0,94,8,72,pot_from_right_to_left_stove/default_task/2025_04_09-17_07_02
+pot_from_right_to_left_stove,default_task,2025_04_09-17_07_42,0,87,7,76,pot_from_right_to_left_stove/default_task/2025_04_09-17_07_42
+pot_from_right_to_left_stove,default_task,2025_04_09-17_08_19,0,69,7,53,pot_from_right_to_left_stove/default_task/2025_04_09-17_08_19
+pot_from_right_to_left_stove,default_task,2025_04_09-17_09_20,0,85,7,66,pot_from_right_to_left_stove/default_task/2025_04_09-17_09_20
+pot_from_right_to_left_stove,default_task,2025_04_11-16_14_49,0,89,10,65,pot_from_right_to_left_stove/default_task/2025_04_11-16_14_49
+pot_from_right_to_left_stove,default_task,2025_04_11-16_15_26,0,95,9,76,pot_from_right_to_left_stove/default_task/2025_04_11-16_15_26
+pot_from_right_to_left_stove,default_task,2025_04_11-16_16_04,0,87,8,68,pot_from_right_to_left_stove/default_task/2025_04_11-16_16_04
+pot_from_right_to_left_stove,default_task,2025_04_11-16_16_40,0,81,12,66,pot_from_right_to_left_stove/default_task/2025_04_11-16_16_40
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_36_48,0,68,44,60,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_36_48
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_37_20,0,66,43,57,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_37_20
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_38_17,0,90,63,74,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_38_17
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_38_54,0,76,50,62,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_38_54
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_39_27,0,80,54,68,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_39_27
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_40_02,0,81,56,67,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_40_02
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_40_35,0,85,63,74,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_40_35
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_43_11,0,80,56,67,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_43_11
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_43_49,0,113,59,71,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_43_49
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_44_19,0,72,52,64,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_44_19
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_44_44,0,68,48,60,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_44_44
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_45_16,0,85,58,73,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_45_16
+pot_from_right_to_left_stove,let_go_of_pot_from_stove,2025_04_11-16_45_50,0,83,59,73,pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_45_50
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_18_14,0,95,46,76,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_18_14
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_18_56,0,125,68,100,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_18_56
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_19_32,0,88,45,65,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_19_32
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_20_01,0,82,44,64,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_20_01
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_20_58,0,82,41,52,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_20_58
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_21_25,0,77,44,52,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_21_25
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_23_02,0,83,44,58,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_23_02
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_23_38,0,82,44,52,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_23_38
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_24_19,0,80,43,53,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_24_19
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_26_32,0,73,42,49,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_26_32
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_27_06,0,82,45,54,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_27_06
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_28_44,0,96,59,68,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_28_44
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_29_21,0,94,53,65,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_29_21
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_30_00,0,84,44,56,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_30_00
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_30_29,0,85,47,59,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_30_29
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_31_04,0,84,48,58,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_31_04
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_31_44,0,89,46,62,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_31_44
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_32_25,0,87,41,56,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_32_25
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_32_58,0,88,45,60,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_32_58
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_33_50,0,92,48,60,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_33_50
+pot_from_right_to_left_stove,move_to_left_stove_from_stove,2025_04_11-16_34_24,0,86,45,57,pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_34_24
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_36_46,0,58,40,54,pot_from_sink_to_right_stove/align_above_right_stove_from_sink/2025_04_09-16_36_46
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_37_13,0,102,67,93,pot_from_sink_to_right_stove/align_above_right_stove_from_sink/2025_04_09-16_37_13
+pot_from_sink_to_right_stove,grasp_pot_from_top_left_edge_in_sink,2025_04_09-15_58_53,0,80,0,32,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-15_58_53,0,80,32,39,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-15_58_53,0,80,39,54,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-15_58_53,0,80,54,65,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53
+pot_from_sink_to_right_stove,grasp_pot_from_top_left_edge_in_sink,2025_04_09-15_59_28,0,80,9,35,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-15_59_28,0,80,35,43,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-15_59_28,0,80,43,54,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-15_59_28,0,80,54,63,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28
+pot_from_sink_to_right_stove,grasp_pot_from_top_left_edge_in_sink,2025_04_09-16_00_01,0,78,8,32,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_00_01,0,78,32,41,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_00_01,0,78,41,55,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_00_01,0,78,55,65,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01
+pot_from_sink_to_right_stove,grasp_pot_from_top_left_edge_in_sink,2025_04_09-16_00_39,0,88,9,46,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_00_39,0,88,46,52,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_00_39,0,88,52,64,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_00_39,0,88,64,75,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39
+pot_from_sink_to_right_stove,grasp_pot_from_top_left_edge_in_sink,2025_04_09-16_01_23,0,81,8,35,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_01_23,0,81,35,43,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_01_23,0,81,43,55,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_01_23,0,81,55,68,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23
+pot_from_sink_to_right_stove,grasp_pot_from_bot_left_edge_in_sink,2025_04_09-16_02_02,0,82,9,31,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_02_02,0,82,31,39,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_02_02,0,82,39,58,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_02_02,0,82,58,65,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02
+pot_from_sink_to_right_stove,grasp_pot_from_bot_left_edge_in_sink,2025_04_09-16_02_36,0,86,8,35,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_02_36,0,86,35,49,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_02_36,0,86,49,61,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_02_36,0,86,61,69,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36
+pot_from_sink_to_right_stove,grasp_pot_from_bot_left_edge_in_sink,2025_04_09-16_03_15,0,80,9,37,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_03_15,0,80,37,43,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_03_15,0,80,43,52,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_03_15,0,80,52,62,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15
+pot_from_sink_to_right_stove,grasp_pot_from_bot_left_edge_in_sink,2025_04_09-16_03_59,0,86,12,33,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_03_59,0,86,33,39,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_03_59,0,86,39,56,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_03_59,0,86,56,69,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59
+pot_from_sink_to_right_stove,grasp_pot_from_bot_left_edge_in_sink,2025_04_09-16_04_38,0,90,11,40,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_04_38,0,90,40,48,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_04_38,0,90,48,62,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_04_38,0,90,62,72,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38
+pot_from_sink_to_right_stove,grasp_pot_from_top_right_edge_in_sink,2025_04_09-16_06_48,0,69,8,29,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_06_48,0,69,29,36,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_06_48,0,69,36,48,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_06_48,0,69,48,58,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48
+pot_from_sink_to_right_stove,grasp_pot_from_top_right_edge_in_sink,2025_04_09-16_25_49,0,78,6,38,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_25_49,0,78,38,45,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_25_49,0,78,45,56,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_25_49,0,78,56,66,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49
+pot_from_sink_to_right_stove,grasp_pot_from_top_right_edge_in_sink,2025_04_09-16_26_22,0,88,7,40,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_26_22,0,88,40,49,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_26_22,0,88,49,62,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_26_22,0,88,62,73,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22
+pot_from_sink_to_right_stove,grasp_pot_from_top_right_edge_in_sink,2025_04_09-16_27_01,0,74,5,35,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_27_01,0,74,35,42,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_27_01,0,74,42,53,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_27_01,0,74,53,63,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01
+pot_from_sink_to_right_stove,grasp_pot_from_top_right_edge_in_sink,2025_04_09-16_27_34,0,78,8,35,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_27_34,0,78,35,39,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_27_34,0,78,35,52,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_27_34,0,78,52,62,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34
+pot_from_sink_to_right_stove,grasp_pot_from_bot_right_edge_in_sink,2025_04_09-16_28_16,0,81,8,40,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_28_16,0,81,40,47,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_28_16,0,81,47,59,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_28_16,0,81,59,71,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16
+pot_from_sink_to_right_stove,grasp_pot_from_bot_right_edge_in_sink,2025_04_09-16_28_49,0,74,9,33,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_28_49,0,74,33,44,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_28_49,0,74,44,54,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_28_49,0,74,54,64,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49
+pot_from_sink_to_right_stove,grasp_pot_from_bot_right_edge_in_sink,2025_04_09-16_29_20,0,79,8,38,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_29_20,0,79,38,45,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_29_20,0,79,45,58,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_29_20,0,79,58,69,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20
+pot_from_sink_to_right_stove,grasp_pot_from_bot_right_edge_in_sink,2025_04_09-16_30_11,0,83,9,38,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_30_11,0,83,38,44,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_30_11,0,83,44,58,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_30_11,0,83,58,70,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11
+pot_from_sink_to_right_stove,grasp_pot_from_bot_right_edge_in_sink,2025_04_09-16_30_46,0,87,13,46,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46
+pot_from_sink_to_right_stove,go_up_with_pot_from_sink,2025_04_09-16_30_46,0,87,46,53,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46
+pot_from_sink_to_right_stove,align_above_right_stove_from_sink,2025_04_09-16_30_46,0,87,53,67,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46
+pot_from_sink_to_right_stove,let_go_of_pot_from_stove_from_sink,2025_04_09-16_30_46,0,87,67,77,pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46
+pot_from_sink_to_right_stove,default_task,2025_04_09-13_56_31,0,89,9,68,pot_from_sink_to_right_stove/default_task/2025_04_09-13_56_31
+pot_from_sink_to_right_stove,default_task,2025_04_09-13_57_20,0,85,11,72,pot_from_sink_to_right_stove/default_task/2025_04_09-13_57_20
+pot_from_sink_to_right_stove,default_task,2025_04_09-13_58_03,0,87,7,65,pot_from_sink_to_right_stove/default_task/2025_04_09-13_58_03
+pot_from_sink_to_right_stove,default_task,2025_04_09-13_58_45,0,95,11,79,pot_from_sink_to_right_stove/default_task/2025_04_09-13_58_45
+pot_from_sink_to_right_stove,default_task,2025_04_09-13_59_24,0,88,10,72,pot_from_sink_to_right_stove/default_task/2025_04_09-13_59_24
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_00_02,0,103,10,81,pot_from_sink_to_right_stove/default_task/2025_04_09-14_00_02
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_00_45,0,97,10,72,pot_from_sink_to_right_stove/default_task/2025_04_09-14_00_45
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_01_26,0,109,8,72,pot_from_sink_to_right_stove/default_task/2025_04_09-14_01_26
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_02_53,0,96,9,71,pot_from_sink_to_right_stove/default_task/2025_04_09-14_02_53
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_03_37,0,100,10,77,pot_from_sink_to_right_stove/default_task/2025_04_09-14_03_37
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_04_26,0,91,6,70,pot_from_sink_to_right_stove/default_task/2025_04_09-14_04_26
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_05_08,0,102,8,76,pot_from_sink_to_right_stove/default_task/2025_04_09-14_05_08
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_05_53,0,107,10,83,pot_from_sink_to_right_stove/default_task/2025_04_09-14_05_53
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_06_35,0,107,8,83,pot_from_sink_to_right_stove/default_task/2025_04_09-14_06_35
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_07_16,0,95,8,72,pot_from_sink_to_right_stove/default_task/2025_04_09-14_07_16
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_07_54,0,114,7,88,pot_from_sink_to_right_stove/default_task/2025_04_09-14_07_54
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_08_37,0,114,7,92,pot_from_sink_to_right_stove/default_task/2025_04_09-14_08_37
+pot_from_sink_to_right_stove,default_task,2025_04_09-14_09_18,0,107,9,83,pot_from_sink_to_right_stove/default_task/2025_04_09-14_09_18

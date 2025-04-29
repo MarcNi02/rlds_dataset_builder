@@ -8,17 +8,19 @@ tasks = ["[banana_from_sink_to_right_stove]",
          "[pot_from_right_to_left_stove]",
          "[pot_from_sink_to_right_stove]"]
 
-subtasks = ["[let_go_of_pot_from_stove]", 
+subtasks = ["[default_task]",
+            "[let_go_of_pot_from_stove]", 
             "[move_to_left_stove_from_stove]", 
-            "[align_above_right_stove_from_sink]", 
-            "[border_of_sink(4x_different_pos)]"]
+            "[align_above_right_stove_from_sink]"]
+
+special_subtask = "[border_of_sink(4x_different_pos)]"
 
 def build_range_pattern(n):
     if n < 1:
         raise ValueError("Must have at least one range")
 
     # Base pattern for a single "a - b"
-    range_pattern = r'\d{1,3}\s*-\s*\d{1,3}'
+    range_pattern = r'(?:\d{1,3}\s*-\s*\d{1,3}|invalid)'
 
     # First range (no comma before it)
     full_pattern = f'^{range_pattern}'
@@ -35,19 +37,10 @@ def build_range_pattern_find(n):
     if n < 1:
         raise ValueError("Must have at least one range")
 
-    # Base pattern for a single "a - b"
-    range_pattern = r'(\d{1,3})\s*-\s*(\d{1,3})'
-
-    # First range (no comma before it)
-    full_pattern = f'^{range_pattern}'
-
-    # Add n-1 more ranges, each prefixed with a comma
+    patterns = [r'(?:(\d{1,3})\s*-\s*(\d{1,3})|invalid)']
     for _ in range(n - 1):
-        full_pattern += r'\s*,\s*' + range_pattern
-
-    # End of string
-    full_pattern += '$'
-    return full_pattern
+        patterns.append(r'\s*,\s*(?:(\d{1,3})\s*-\s*(\d{1,3})|invalid)')
+    return '^' + ''.join(patterns) + '$'
 
 
 def parse_txt_to_csv(input_path, output_path):
@@ -74,11 +67,19 @@ def parse_txt_to_csv(input_path, output_path):
             path[0] = current_task
             continue
         
-        if stripped =="[default_task]":
-            current_subtasks = ["default_task"]
+        if stripped in subtasks:
+            current_subtasks = [stripped[1:-1]]
             path[1] = current_subtasks
             # Create regex pattern for "a - b, c - d" format where a, b, c, d are numbers between 0-999
             current_pattern = build_range_pattern(2)
+            continue
+        
+        if stripped.startswith(special_subtask):
+            current_subtasks = stripped.split(special_subtask + " ")[1].strip().split(',')
+            current_subtasks = [s.strip() for s in current_subtasks]
+            path[1] = current_subtasks
+            # Create regex pattern for "a - b, c - d" format where a, b, c, d are numbers between 0-999
+            current_pattern = build_range_pattern(len(current_subtasks) + 1)
             continue
         
         if stripped.startswith('[others]'):
@@ -108,13 +109,18 @@ def parse_txt_to_csv(input_path, output_path):
                 assert len(pairs) == 1, f"More than 1 possible regex solution found for line {stripped}"
                 
                 pairs = pairs[0]
-                trajs = [(int(pairs[j]), int(pairs[j + 1])) for j in range(0, 2 * amount_ranges, 2)]
                 # print("         traj pattern length", amount_ranges)
                 # print("         traj pairs length", 2 * amount_ranges)
                 # print("         traj current subtasks", current_subtasks)
                 # print("         traj find_regex", find_regex)
                 # print("         traj traj", traj)         
-                # print("         traj pairs", pairs)         
+                # print("         traj pairs", pairs)  
+                trajs = []
+                for j in range(0, 2 * amount_ranges, 2):
+                    if pairs[j] != '':
+                        trajs.append((int(pairs[j]), int(pairs[j + 1])))  
+                    else:
+                        trajs.append((None, None))    
                 # print("         traj trajs", trajs) 
             else:
                 raise ValueError(f"Invalid trajectory format at line {i+1}: {line.strip()}")
@@ -131,8 +137,8 @@ def parse_txt_to_csv(input_path, output_path):
             print("     path subtask", path[1][j])
             print("     full path", "/".join([path[0], path[1][j], current_episode]))
             # print(current_task, current_subtasks[j], current_episode, trajs[0][0], trajs[0][1], trajs[j+1][0], trajs[j+1][1], "/".join([path[0], path[1][j], current_episode]))
-            output_rows.append([current_task, current_subtasks[j], current_episode, trajs[0][0], trajs[0][1], trajs[j+1][0], trajs[j+1][1], "/".join([path[0], path[1][j], current_episode])])
-            
+            if trajs[j+1][0] != None and trajs[j+1][1] != None:
+                output_rows.append([current_task, current_subtasks[j], current_episode, trajs[0][0], trajs[0][1], trajs[j+1][0], trajs[j+1][1], "/".join([path[0], path[1][j], current_episode])])
             
     # Write output to CSV
     with open(output_path, 'w', newline='') as csvfile:
@@ -141,4 +147,4 @@ def parse_txt_to_csv(input_path, output_path):
         writer.writerows(output_rows)
 
 # Run the parser
-parse_txt_to_csv('crop_traj_test.txt', 'output.csv')
+parse_txt_to_csv('crop_traj.txt', 'output.csv')

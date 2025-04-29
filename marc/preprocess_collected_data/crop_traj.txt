@@ -40,9 +40,9 @@
       [images] 0 - 96, 0 - 83
     [2025_04_15-01_24_50]
       [images] 0 - 97, 0 - 83
-  [others] original, grasp_banana, position_with_banana_above_right_stove, let_go_of_banana
+  [others] grasp_banana, position_with_banana_above_right_stove, let_go_of_banana
     [2025_04_15-01_35_16]
-      [images] 0 - 105, 0 - 47, 47 - 70, 70, - 91
+      [images] 0 - 105, 0 - 47, 47 - 70, 70 - 91
     [2025_04_15-01_35_52]
       [images] 0 - 110, 0 - 46, 46 - 75, 75 - 91
     [2025_04_15-01_36_30]
@@ -127,7 +127,7 @@
       [images] 0 - 94, 9 - 83
     [2025_04_14-15_08_28]
       [images] 0 - 94, 8 - 77
-  [others] original, grasp_banana, move_up_with_banana, position_with_banana_above_right_stove_from_tray, let_go_of_banana_from_tray
+  [others] grasp_banana, move_up_with_banana, position_with_banana_above_right_stove_from_tray, let_go_of_banana_from_tray
     [2025_04_14-15_19_01]
       [images] 0 - 99, 0 - 36, invalid, invalid, invalid
     [2025_04_14-15_19_29]
@@ -348,7 +348,7 @@
       [images] 0 - 164, invalid
     [2025_04_09-16_39_03]
       [images] 0 - 91, invalid
-  [border_of_sink(4x_different_pos)] original, grasp_pot_from_xxx_edge_in_sink, go_up_with_pot_from_sink, align_above_right_stove_from_sink, let_go_of_pot_from_stove_from_sink
+  [border_of_sink(4x_different_pos)] grasp_pot_from_xxx_edge_in_sink, go_up_with_pot_from_sink, align_above_right_stove_from_sink, let_go_of_pot_from_stove_from_sink
     [2025_04_09-15_58_53] top_left
       [images] 0 - 80, 0 - 32, 32 - 39, 39 - 54, 54 - 65
     [2025_04_09-15_59_28] top_left

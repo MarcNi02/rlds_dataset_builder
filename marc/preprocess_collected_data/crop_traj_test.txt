@@ -42,7 +42,7 @@
       [images] 0 - 97, 0 - 83
   [others] grasp_banana, position_with_banana_above_right_stove, let_go_of_banana
     [2025_04_15-01_35_16]
-      [images] 0 - 105, 0 - 47, 47 - 70, 70, - 91
+      [images] 0 - 105, 0 - 47, 47 - 70, 70 - 91
     [2025_04_15-01_35_52]
       [images] 0 - 110, 0 - 46, 46 - 75, 75 - 91
     [2025_04_15-01_36_30]
