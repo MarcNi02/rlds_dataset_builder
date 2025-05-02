@@ -13,8 +13,11 @@ from tqdm import tqdm
 import torch
 from pathlib import Path
 
+import pandas as pd
+
 tf.config.set_visible_devices([], "GPU")
-data_path = "/home/nikolaus/my_data"
+data_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper"
+config_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper/data_info/config_g.csv"
 
 class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
     """DatasetBuilder for example dataset."""
@@ -152,6 +155,7 @@ class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
 
     def _split_generators(self, dl_manager: tfds.download.DownloadManager):
         """Define data splits."""
+        self.df = pd.read_csv(config_path)
         return {
             'train': self._generate_examples(path=data_path),
             # 'val': self._generate_examples(path='data/val/episode_*.npy'),
@@ -159,22 +163,18 @@ class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
 
     def _generate_examples(self, path) -> Iterator[Tuple[str, Any]]:
         """Generator of examples for each split."""
+        self.df = pd.read_csv(config_path)
+        for row in tqdm(self.df.itertuples(index=False), total=self.df.shape[0]):
+            # Get the path to the episode
+            episode_path = os.path.join(data_path, row.path)
+            # Check if the path exists
+            assert os.path.exists(episode_path), f"Path does not exist: {episode_path}"
 
-        # create list of all examples
-        raw_dirs = []
-        get_trajectorie_paths_recursive(data_path, raw_dirs)
-        print("# of trajectories:", len(raw_dirs))
+            # Parse the example
+            yield _parse_example(episode_path)
+            
+            
 
-        # for smallish datasets, use single-thread parsing
-        for sample in raw_dirs:
-            yield _parse_example(sample)
-
-        # for large datasets use beam to parallelize data parsing (this will have initialization overhead)
-        # beam = tfds.core.lazy_imports.apache_beam
-        # return (
-        #         beam.Create(episode_paths)
-        #         | beam.Map(_parse_example)
-        # )
 
 def _parse_example(episode_path, embed=None):
 
@@ -289,16 +289,15 @@ def create_img_vector(img_folder_path, trajectory_length):
         cam_list.append(img_array)
     return cam_list
 
-def get_trajectorie_paths_recursive(directory, sub_dir_list):
-    for entry in os.listdir(directory):
-        full_path = os.path.join(directory, entry)
-        if os.path.isdir(full_path):
-            sub_dir_list.append(directory) if entry == "images" else get_trajectorie_paths_recursive(full_path, sub_dir_list)
 
 if __name__ == "__main__":
-    # create list of all examples
-    raw_dirs = []
-    get_trajectorie_paths_recursive(data_path, raw_dirs)
-    for trajectorie_path in tqdm(raw_dirs):
-        _, sample = _parse_example(trajectorie_path)
-        # print(f"sample: {sample}")
+    df = pd.read_csv(config_path)
+    
+    for row in tqdm(df.itertuples(index=False), total=df.shape[0]):
+        # Get the path to the episode
+        episode_path = os.path.join(data_path, row.path)
+        # Check if the path exists
+        assert os.path.exists(episode_path), f"Path does not exist: {episode_path}"
+
+        # Parse the example
+        _, sample = _parse_example(episode_path)
