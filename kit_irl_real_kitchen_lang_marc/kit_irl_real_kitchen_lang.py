@@ -14,9 +14,9 @@ import torch
 from pathlib import Path
 
 tf.config.set_visible_devices([], "GPU")
-data_path = "/home/hk-project-sustainebot/ob0961/ws_data/hkfswork/ob0961-data/data/flower_datasets/marc_rlds_test/collected_data"
+data_path = "/home/nikolaus/my_data"
 
-class KitIrlRealKitchenLang(tfds.core.GeneratorBasedBuilder):
+class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
     """DatasetBuilder for example dataset."""
 
     VERSION = tfds.core.Version('1.0.0')
