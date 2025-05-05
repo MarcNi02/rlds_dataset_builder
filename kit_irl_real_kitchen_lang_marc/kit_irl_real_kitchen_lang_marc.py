@@ -17,7 +17,7 @@ import pandas as pd
 
 tf.config.set_visible_devices([], "GPU")
 data_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper"
-config_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper/data_info/config_g.csv"
+config_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper/data_info/output_gi.csv"
 
 class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
     """DatasetBuilder for example dataset."""
@@ -135,12 +135,6 @@ class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
                     'language_instruction_3': tfds.features.Text(
                         doc='Language Instruction.'
                     ),
-                    # 'language_embedding': tfds.features.Tensor(
-                    #     shape=(3, 512),
-                    #     dtype=np.float32,
-                    #     doc='Kona language embedding. '
-                    #         'See https://tfhub.dev/google/universal-sentence-encoder-large/5'
-                    # ),
                 }),
                 'episode_metadata': tfds.features.FeaturesDict({
                     'file_path': tfds.features.Text(
@@ -158,25 +152,27 @@ class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
         self.df = pd.read_csv(config_path)
         return {
             'train': self._generate_examples(path=data_path),
-            # 'val': self._generate_examples(path='data/val/episode_*.npy'),
         }
 
     def _generate_examples(self, path) -> Iterator[Tuple[str, Any]]:
         """Generator of examples for each split."""
-        self.df = pd.read_csv(config_path)
         for row in tqdm(self.df.itertuples(index=False), total=self.df.shape[0]):
-            # Get the path to the episode
-            episode_path = os.path.join(data_path, row.path)
-            # Check if the path exists
-            assert os.path.exists(episode_path), f"Path does not exist: {episode_path}"
-
             # Parse the example
-            yield _parse_example(episode_path)
+            yield _parse_example(row)
             
             
-
-
-def _parse_example(episode_path, embed=None):
+def _parse_example(row, embed=None):
+    print(f"Episode: {row.path}, Subtask: {row.subtask}")
+    # Get the path to the episode
+    episode_path = os.path.join(data_path, row.path)
+    # Check if the path exists
+    assert os.path.exists(episode_path), f"Path does not exist: {episode_path}"
+    
+    traj_start = row.cropped_traj_start
+    traj_end = row.cropped_traj_end
+    
+    subtask = row.subtask
+    
 
     data = {}
     leader_path = os.path.join(episode_path, 'Gello leader/*.pt')
@@ -185,19 +181,41 @@ def _parse_example(episode_path, embed=None):
     # 'gripper_state.pt' 'ee_vel.pt' 'joint_vel.pt' 'ee_pos.pt' 'joint_pos.pt' (franka panda robot)
     for file in glob.glob(follower_path):
         name = Path(file).stem
-        data.update({name : torch.load(file)})
-    # 'gripper_state.pt' 'joint_pos.pt' (gello)
-    for file in glob.glob(leader_path):
-        name = 'des_' + Path(file).stem
-        data.update({name : torch.load(file)})
+        tensor = torch.load(file)
+        tensor_sliced = tensor[traj_start : traj_end + 1]
+        data.update({name : tensor_sliced})
+        
+    # 'gripper_state-{subtask}.pt' 'joint_pos.pt' (gello)
+    # if any(f"gripper_state-{subtask}.pt" in file for file in leader_files):
+    #     leader_files = [file for file in leader_files if ("gripper_state" not in file or f"gripper_state-{subtask}.pt" in file)]
+    # else:
+    #     leader_files = [file for file in leader_files if ("gripper_state" not in file or f"gripper_state.pt" in file)]
+    leader_files = glob.glob(leader_path)
+    
+    if os.path.exists(os.path.join(os.path.dirname(leader_path), f"gripper_state-{subtask}.pt")):
+        gripper_state_file = os.path.join(os.path.dirname(leader_path), f"gripper_state-{subtask}.pt")
+    else:
+        gripper_state_file = os.path.join(os.path.dirname(leader_path), f"gripper_state.pt")  
+    leader_files = [file for file in leader_files if "gripper_state" not in file]
+    leader_files.append(gripper_state_file)
+
+    for file in leader_files:
+        tensor = torch.load(file)
+        tensor_sliced = tensor[traj_start : traj_end + 1]
+        if "gripper_state" in file:
+            data.update({"des_gripper_state" : tensor_sliced})
+        else:
+            name = 'des_' + Path(file).stem
+            data.update({name : tensor_sliced})
+    
     # all data entry should have the same traj length (primary length of tensor)
     trajectory_length = data[list(data.keys())[0]].size()[0]
 
 
-    top_cam_path = os.path.join(episode_path, 'images/top_cam_processed')
-    side_cam_path = os.path.join(episode_path, 'images/side_cam_processed')
-    top_cam_vector = create_img_vector(top_cam_path, trajectory_length)
-    side_cam_vector = create_img_vector(side_cam_path, trajectory_length)
+    top_cam_path = os.path.join(episode_path, 'images/top_cam_crop')
+    side_cam_path = os.path.join(episode_path, 'images/side_cam_crop')
+    top_cam_vector = create_img_vector(top_cam_path, trajectory_length, traj_start, traj_end)
+    side_cam_vector = create_img_vector(side_cam_path, trajectory_length, traj_start, traj_end)
 
     data.update({
                 'image_top': top_cam_vector, 
@@ -218,7 +236,7 @@ def _parse_example(episode_path, embed=None):
         else:
             delta_ee_pos[i][0:3] = data["ee_pos"][i][0:3] - data["ee_pos"][i-1][0:3]
 
-            rot_quat = Rotation.from_quat(data["ee_pos"][i][3:])
+            rot_quat = Rotation.from_quat(data["ee_pos"][i][3:7])
             rot_quat_prev = Rotation.from_quat(data["ee_pos"][i-1][3:7])
             delta_rot = rot_quat * rot_quat_prev.inv()
             delta_ee_pos[i][3:6] = delta_rot.as_euler("xyz")
@@ -260,10 +278,9 @@ def _parse_example(episode_path, embed=None):
             'is_first': i == 0,
             'is_last': i == (trajectory_length - 1),
             'is_terminal': i == (trajectory_length - 1),
-            'language_instruction': "marc test instruction one",
-            'language_instruction_2': "marc test instruction two",
-            'language_instruction_3': "marc test instruction three",
-            # 'language_embedding': language_embedding,
+            'language_instruction': row.instructions_1,
+            'language_instruction_2': row.instructions_2,
+            'language_instruction_3': row.instructions_3,
         })
 
     # create output data sample
@@ -276,12 +293,13 @@ def _parse_example(episode_path, embed=None):
     }
 
     # if you want to skip an example for whatever reason, simply return None
-    return episode_path, sample
+    return f"{episode_path}___{traj_start}_{traj_end}___{subtask}", sample
 
-def create_img_vector(img_folder_path, trajectory_length):
+def create_img_vector(img_folder_path, trajectory_length, traj_start, traj_end):
     cam_list = []
     img_paths = glob.glob(os.path.join(img_folder_path, '*.jpeg'))
     img_paths = natsort.natsorted(img_paths)
+    img_paths = img_paths[traj_start: traj_end + 1]
     assert len(img_paths)==trajectory_length, "Number of images does not equal trajectory length!"
 
     for img_path in img_paths:
@@ -291,13 +309,8 @@ def create_img_vector(img_folder_path, trajectory_length):
 
 
 if __name__ == "__main__":
+    # Example usage 
     df = pd.read_csv(config_path)
-    
     for row in tqdm(df.itertuples(index=False), total=df.shape[0]):
-        # Get the path to the episode
-        episode_path = os.path.join(data_path, row.path)
-        # Check if the path exists
-        assert os.path.exists(episode_path), f"Path does not exist: {episode_path}"
-
         # Parse the example
-        _, sample = _parse_example(episode_path)
+        _, sample = _parse_example(row)

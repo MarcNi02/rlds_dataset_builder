@@ -1,0 +1,1586 @@
+INFO[build.py]: Loading dataset  from path: /home/nikolaus/rlds_dataset_builder/kit_irl_real_kitchen_lang_marc/kit_irl_real_kitchen_lang_marc.py
+INFO[build.py]: download_and_prepare for dataset kit_irl_real_kitchen_lang2/1.0.0...
+INFO[native_type_compatibility.py]: Using Any for unsupported type: typing.Sequence[~T]
+INFO[bigquery.py]: No module named google.cloud.bigquery_storage_v1. As a result, the ReadFromBigQuery transform *CANNOT* be used with `method=DIRECT_READ`.
+INFO[dataset_builder.py]: Generating dataset kit_irl_real_kitchen_lang2 (/home/nikolaus/tensorflow_datasets/kit_irl_real_kitchen_lang2/1.0.0)
+Downloading and preparing dataset Unknown size (download: Unknown size, generated: Unknown size, total: Unknown size) to /home/nikolaus/tensorflow_datasets/kit_irl_real_kitchen_lang2/1.0.0...
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_09_15, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_09_41, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_14_39, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_15_07, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_15_37, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_16_17, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_16_54, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_17_28, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_17_58, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_18_36, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_19_14, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_19_50, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_20_28, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_21_07, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_21_47, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_22_25, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_23_00, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_23_38, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_24_13, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/default_task/2025_04_15-01_24_50, Subtask: default_task
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_35_16, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_35_16, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_35_16, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_35_52, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_35_52, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_35_52, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_36_30, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_36_30, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_36_30, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_37_06, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_37_06, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_37_06, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_38_09, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_38_09, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_38_09, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_38_47, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_38_47, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_38_47, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_39_24, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_39_24, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_39_24, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_40_05, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_40_05, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_40_05, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_40_43, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_40_43, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_40_43, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_41_19, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_41_19, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_41_19, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_41_55, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_41_55, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_41_55, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_42_32, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_42_32, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_42_32, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_44_06, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_44_06, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_44_06, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_44_41, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_44_41, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_44_41, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_45_17, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_45_17, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_45_17, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_45_59, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_45_59, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_45_59, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_46_37, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_46_37, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_46_37, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_47_56, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_47_56, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_47_56, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_48_31, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_48_31, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_48_31, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_50_27, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_50_27, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_50_27, Subtask: let_go_of_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_51_04, Subtask: grasp_banana
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_51_04, Subtask: position_with_banana_above_right_stove
+Episode: banana_from_sink_to_right_stove/others/2025_04_15-01_51_04, Subtask: let_go_of_banana
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_48_25, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_49_42, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_50_20, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_50_55, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_51_33, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_52_10, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-14_59_11, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_00_09, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_00_46, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_01_21, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_01_58, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_02_55, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_03_29, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_04_06, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_04_40, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_05_24, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_06_02, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_06_39, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_07_11, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_07_59, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/default_task/2025_04_14-15_08_28, Subtask: default_task
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_19_01, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_19_29, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_19_29, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_19_29, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_19_29, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_05, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_05, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_05, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_05, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_42, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_42, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_42, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_20_42, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_13, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_13, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_13, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_13, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_43, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_43, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_43, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_21_43, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_22_23, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_22_23, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_22_23, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_22_23, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_05, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_05, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_05, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_05, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_32, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_32, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_32, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_23_32, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_24_07, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_24_07, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_24_07, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_24_07, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_01, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_01, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_01, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_01, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_28, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_28, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_28, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_28, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_58, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_58, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_58, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_40_58, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_41_33, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_41_33, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_41_33, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_41_33, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_08, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_08, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_08, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_08, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_34, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_34, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_34, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_42_34, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_43_02, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_43_02, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_43_02, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-15_43_02, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_26, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_26, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_26, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_26, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_53, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_53, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_53, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_29_53, Subtask: let_go_of_banana_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_30_30, Subtask: grasp_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_30_30, Subtask: move_up_with_banana
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_30_30, Subtask: position_with_banana_above_right_stove_from_tray
+Episode: banana_from_tray_to_right_stove/others/2025_04_14-17_30_30, Subtask: let_go_of_banana_from_tray
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-01_55_41, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-01_56_21, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-01_57_33, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-01_58_13, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-01_58_58, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-01_59_39, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_00_18, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_01_02, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_01_44, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_03_39, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_04_16, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_04_53, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_05_29, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_06_03, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_06_39, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_07_18, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_07_55, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_08_32, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_09_24, Subtask: default_task
+Episode: bottle_from_right_stove_to_sink/default_task/2025_04_15-02_10_01, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_44_04, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_44_44, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_45_22, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_46_13, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_48_20, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_48_55, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_49_34, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_50_21, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_50_55, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_51_24, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-16_51_56, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-17_05_15, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-17_05_52, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-17_07_02, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-17_07_42, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-17_08_19, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_09-17_09_20, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_11-16_14_49, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_11-16_15_26, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_11-16_16_04, Subtask: default_task
+Episode: pot_from_right_to_left_stove/default_task/2025_04_11-16_16_40, Subtask: default_task
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_36_48, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_37_20, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_38_17, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_38_54, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_39_27, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_40_02, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_40_35, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_43_11, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_43_49, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_44_19, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_44_44, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_45_16, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/let_go_of_pot_from_stove/2025_04_11-16_45_50, Subtask: let_go_of_pot_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_18_14, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_18_56, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_19_32, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_20_01, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_20_58, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_21_25, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_23_02, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_23_38, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_24_19, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_26_32, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_27_06, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_28_44, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_29_21, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_30_00, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_30_29, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_31_04, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_31_44, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_32_25, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_32_58, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_33_50, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_right_to_left_stove/move_to_left_stove_from_stove/2025_04_11-16_34_24, Subtask: move_to_left_stove_from_stove
+Episode: pot_from_sink_to_right_stove/align_above_right_stove_from_sink/2025_04_09-16_36_46, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/align_above_right_stove_from_sink/2025_04_09-16_37_13, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53, Subtask: grasp_pot_from_top_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_58_53, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28, Subtask: grasp_pot_from_top_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-15_59_28, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01, Subtask: grasp_pot_from_top_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_01, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39, Subtask: grasp_pot_from_top_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_00_39, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23, Subtask: grasp_pot_from_top_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_01_23, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02, Subtask: grasp_pot_from_bot_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_02, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36, Subtask: grasp_pot_from_bot_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_02_36, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15, Subtask: grasp_pot_from_bot_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_15, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59, Subtask: grasp_pot_from_bot_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_03_59, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38, Subtask: grasp_pot_from_bot_left_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_04_38, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48, Subtask: grasp_pot_from_top_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_06_48, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49, Subtask: grasp_pot_from_top_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_25_49, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22, Subtask: grasp_pot_from_top_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_26_22, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01, Subtask: grasp_pot_from_top_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_01, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34, Subtask: grasp_pot_from_top_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_27_34, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16, Subtask: grasp_pot_from_bot_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_16, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49, Subtask: grasp_pot_from_bot_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_28_49, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20, Subtask: grasp_pot_from_bot_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_29_20, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11, Subtask: grasp_pot_from_bot_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_11, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46, Subtask: grasp_pot_from_bot_right_edge_in_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46, Subtask: go_up_with_pot_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46, Subtask: align_above_right_stove_from_sink
+Episode: pot_from_sink_to_right_stove/border_of_sink(4x_different_pos)/2025_04_09-16_30_46, Subtask: let_go_of_pot_from_stove_from_sink
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-13_56_31, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-13_57_20, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-13_58_03, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-13_58_45, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-13_59_24, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_00_02, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_00_45, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_01_26, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_02_53, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_03_37, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_04_26, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_05_08, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_05_53, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_06_35, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_07_16, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_07_54, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_08_37, Subtask: default_task
+Episode: pot_from_sink_to_right_stove/default_task/2025_04_09-14_09_18, Subtask: default_task
+ERROR[writer.py]: Two examples share the same hashed key!
+ERROR[writer.py]: 1st example: {'steps': {'observation': {'image_top': <tf.Tensor: shape=(14,), dtype=string, numpy=
+array([b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x01\x01,\x01,
+      dtype=object)>, 'joint_state': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 0.04811075, -0.03303653,  0.53353477, -1.42768955,  0.01771825,
+         1.82347238, -2.00248432],
+       [ 0.0494028 ,  0.02581292,  0.53483742, -1.35635149, -0.02551539,
+         1.82366168, -1.97493207],
+       [ 0.05086883,  0.07737867,  0.53803945, -1.31024384, -0.05705211,
+         1.82332206, -1.96276557],
+       [ 0.05527561,  0.12727046,  0.54155457, -1.29231548, -0.09081092,
+         1.8419863 , -1.9411968 ],
+       [ 0.06295958,  0.16628164,  0.54530758, -1.28725719, -0.13720676,
+         1.88627934, -1.91161621],
+       [ 0.07482338,  0.18987873,  0.54651254, -1.2840538 , -0.15814953,
+         1.91325152, -1.89643598],
+       [ 0.07672671,  0.21001369,  0.5463587 , -1.27943659, -0.17726974,
+         1.94728971, -1.87906134],
+       [ 0.08577204,  0.23693022,  0.54670519, -1.27714908, -0.22662233,
+         1.99146867, -1.85087848],
+       [ 0.09090765,  0.25893742,  0.54658389, -1.26167929, -0.24808338,
+         2.00132942, -1.84115851],
+       [ 0.09098101,  0.27078515,  0.5464499 , -1.24999678, -0.25063306,
+         2.00141191, -1.84113884],
+       [ 0.094432  ,  0.27696136,  0.54699469, -1.24955475, -0.25113115,
+         2.00146437, -1.84109712],
+       [ 0.10093559,  0.28457671,  0.54739189, -1.24983394, -0.2513614 ,
+         2.00164604, -1.83472157],
+       [ 0.10090135,  0.29770163,  0.54711884, -1.24950325, -0.25203422,
+         2.01767945, -1.82059145],
+       [ 0.10165553,  0.30004376,  0.54726124, -1.24943769, -0.25208992,
+         2.0203321 , -1.81847882]])>, 'joint_state_velocity': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 1.62864535e-03,  3.57542366e-01,  1.11639192e-02,
+         3.45948458e-01, -3.57326776e-01,  6.34275901e-04,
+         1.85160473e-01],
+       [ 7.41943717e-03,  3.05491269e-01,  1.22545669e-02,
+         4.08071935e-01, -1.75420567e-01,  3.10580176e-03,
+         8.86960402e-02],
+       [ 1.28636435e-02,  2.92958766e-01,  2.27018818e-02,
+         1.59959450e-01, -1.91738620e-01,  8.87105893e-03,
+         4.34602238e-02],
+       [ 3.76445204e-02,  2.76228130e-01,  1.04360674e-02,
+         6.84494004e-02, -2.85729408e-01,  2.51105219e-01,
+         1.90789714e-01],
+       [ 7.10081607e-02,  1.90239862e-01,  1.93766542e-02,
+         9.55857430e-03, -2.13975579e-01,  2.65566856e-01,
+         1.40803501e-01],
+       [ 4.75150347e-02,  1.01103768e-01, -6.50473172e-04,
+         2.49149818e-02, -3.78286764e-02,  1.28306925e-01,
+         3.59107219e-02],
+       [ 2.44822097e-03,  1.42414734e-01, -2.06322665e-03,
+         2.09553894e-02, -2.29948863e-01,  2.46608928e-01,
+         1.62680477e-01],
+       [ 7.57875890e-02,  1.65354088e-01,  3.17018549e-03,
+         3.55958641e-02, -2.86470443e-01,  1.55128285e-01,
+         1.42930463e-01],
+       [-5.43835282e-04,  8.96685272e-02, -2.42801453e-03,
+         9.96737555e-02, -4.48542461e-02,  4.35140624e-04,
+        -3.53272393e-04],
+       [-9.24902793e-04,  4.88257669e-02, -9.49917594e-04,
+         2.34092530e-02, -1.54969376e-02,  2.17357883e-03,
+         5.35795349e-04],
+       [ 5.04090525e-02,  3.23255099e-02,  4.91112005e-03,
+         2.10980093e-03, -3.49464768e-04,  4.11688932e-04,
+        -1.94791437e-03],
+       [ 5.24438312e-03,  7.55280554e-02, -3.00179538e-03,
+         6.33269607e-04, -6.41933409e-04,  2.06378791e-02,
+         1.22071639e-01],
+       [ 1.79554417e-03,  4.72650640e-02,  1.40261289e-03,
+        -4.37491166e-04,  6.64085848e-04,  7.50948489e-02,
+         3.42928432e-02],
+       [ 1.94895398e-02,  1.23750800e-02,  9.40870866e-03,
+         5.58175263e-04,  5.45361181e-05,  1.30703310e-02,
+         5.46595431e-04]])>, 'end_effector_pos': <tf.Tensor: shape=(14, 3), dtype=float64, numpy=
+array([[0.46526396, 0.31549981, 0.73670453],
+       [0.48484197, 0.31146339, 0.74276859],
+       [0.50244516, 0.30965966, 0.7388832 ],
+       [0.52101189, 0.3116779 , 0.72387594],
+       [0.53617775, 0.31658885, 0.71089584],
+       [0.54270321, 0.3236312 , 0.70280612],
+       [0.55149972, 0.32494572, 0.69801688],
+       [0.5615024 , 0.32983145, 0.68940812],
+       [0.56839275, 0.33120877, 0.68557364],
+       [0.57245809, 0.33033845, 0.68433022],
+       [0.57328922, 0.33270311, 0.68090391],
+       [0.57362348, 0.3368932 , 0.67622465],
+       [0.57874757, 0.33777139, 0.67044502],
+       [0.57930678, 0.33844712, 0.66941649]])>, 'end_effector_ori': <tf.Tensor: shape=(14, 3), dtype=float64, numpy=
+array([[2.75206041, 0.17258081, 2.55245399],
+       [2.73244905, 0.18125737, 2.51903796],
+       [2.73097229, 0.18101308, 2.50524259],
+       [2.73601055, 0.17752793, 2.48794866],
+       [2.72386074, 0.19530457, 2.46455598],
+       [2.71413803, 0.20043223, 2.46053338],
+       [2.69270945, 0.20764583, 2.44197679],
+       [2.6734488 , 0.23590203, 2.42097998],
+       [2.66778851, 0.24283019, 2.41349673],
+       [2.665658  , 0.23976655, 2.41112733],
+       [2.66981387, 0.23603293, 2.41595912],
+       [2.67427635, 0.22809002, 2.41837883],
+       [2.66527033, 0.21720555, 2.40531993],
+       [2.66396618, 0.21530592, 2.40436411]])>, 'end_effector_ori_quat': <tf.Tensor: shape=(14, 4), dtype=float64, numpy=
+array([[0.2678175 , 0.94018406, 0.15996346, 0.13689204],
+       [0.28115538, 0.9338991 , 0.1654503 , 0.14632253],
+       [0.28750837, 0.93181843, 0.16516455, 0.14756016],
+       [0.29630944, 0.92973989, 0.16211644, 0.14663787],
+       [0.30425587, 0.92506528, 0.1629771 , 0.15849628],
+       [0.30474746, 0.92359722, 0.1662668 , 0.16264215],
+       [0.31065372, 0.91884923, 0.17333028, 0.17078333],
+       [0.31502217, 0.91356808, 0.1751819 , 0.18832339],
+       [0.31700459, 0.91179729, 0.17577645, 0.19296758],
+       [0.31827742, 0.91127288, 0.17708695, 0.19214959],
+       [0.31695417, 0.91245371, 0.17634317, 0.18939745],
+       [0.31728387, 0.91332346, 0.17599215, 0.18492702],
+       [0.32380128, 0.91052502, 0.18090697, 0.18267345],
+       [0.32436138, 0.91026449, 0.18176647, 0.18212418]])>}, 'action': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+        -1.00000000e+00],
+       [ 1.95780098e-02, -4.03642654e-03,  6.06405735e-03,
+         1.12001421e-02, -1.79595277e-02, -3.00648026e-02,
+        -1.00000000e+00],
+       [ 1.76031888e-02, -1.80372596e-03, -3.88538837e-03,
+         1.32241403e-03, -6.48719957e-04, -1.35297878e-02,
+        -1.00000000e+00],
+       [ 1.85667276e-02,  2.01824307e-03, -1.50072575e-02,
+        -1.91864464e-03,  5.74815506e-03, -1.81979425e-02,
+        -1.00000000e+00],
+       [ 1.51658654e-02,  4.91094589e-03, -1.29801035e-02,
+        -1.35539274e-03, -2.13708822e-02, -2.11260878e-02,
+        -1.00000000e+00],
+       [ 6.52545691e-03,  7.04234838e-03, -8.08972120e-03,
+         4.20860201e-03, -9.97294299e-03, -2.13241065e-03,
+        -1.00000000e+00],
+       [ 8.79651308e-03,  1.31452084e-03, -4.78923321e-03,
+         1.17215207e-02, -1.88410413e-02, -1.43248718e-02,
+        -1.00000000e+00],
+       [ 1.00026727e-02,  4.88573313e-03, -8.60875845e-03,
+        -3.89151345e-03, -3.37085836e-02, -1.66941322e-02,
+        -1.00000000e+00],
+       [ 6.89035654e-03,  1.37731433e-03, -3.83448601e-03,
+        -4.45502665e-04, -8.83398950e-03, -6.13914989e-03,
+        -1.00000000e+00],
+       [ 4.06533480e-03, -8.70317221e-04, -1.24341249e-03,
+         3.58316815e-03,  9.09217226e-04, -1.85863918e-03,
+        -1.00000000e+00],
+       [ 8.31127167e-04,  2.36466527e-03, -3.42631340e-03,
+        -5.19882306e-04,  5.47550339e-03,  3.85084748e-03,
+        -1.00000000e+00],
+       [ 3.34262848e-04,  4.19008732e-03, -4.67926264e-03,
+         2.01760512e-03,  8.82501341e-03,  1.40227715e-03,
+        -1.00000000e+00],
+       [ 5.12409210e-03,  8.78185034e-04, -5.77962399e-03,
+         1.37906102e-02,  2.33300030e-03, -1.10540614e-02,
+        -1.00000000e+00],
+       [ 5.59210777e-04,  6.75737858e-04, -1.02853775e-03,
+         2.21961131e-03,  5.51856589e-04, -6.75338611e-04,
+        -1.00000000e+00]])>, 'action_abs': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 0.46526396,  0.31549981,  0.73670453,  2.75206041,  0.17258081,
+         2.55245399, -1.        ],
+       [ 0.48484197,  0.31146339,  0.74276859,  2.73244905,  0.18125737,
+         2.51903796, -1.        ],
+       [ 0.50244516,  0.30965966,  0.7388832 ,  2.73097229,  0.18101308,
+         2.50524259, -1.        ],
+       [ 0.52101189,  0.3116779 ,  0.72387594,  2.73601055,  0.17752793,
+         2.48794866, -1.        ],
+       [ 0.53617775,  0.31658885,  0.71089584,  2.72386074,  0.19530457,
+         2.46455598, -1.        ],
+       [ 0.54270321,  0.3236312 ,  0.70280612,  2.71413803,  0.20043223,
+         2.46053338, -1.        ],
+       [ 0.55149972,  0.32494572,  0.69801688,  2.69270945,  0.20764583,
+         2.44197679, -1.        ],
+       [ 0.5615024 ,  0.32983145,  0.68940812,  2.6734488 ,  0.23590203,
+         2.42097998, -1.        ],
+       [ 0.56839275,  0.33120877,  0.68557364,  2.66778851,  0.24283019,
+         2.41349673, -1.        ],
+       [ 0.57245809,  0.33033845,  0.68433022,  2.665658  ,  0.23976655,
+         2.41112733, -1.        ],
+       [ 0.57328922,  0.33270311,  0.68090391,  2.66981387,  0.23603293,
+         2.41595912, -1.        ],
+       [ 0.57362348,  0.3368932 ,  0.67622465,  2.67427635,  0.22809002,
+         2.41837883, -1.        ],
+       [ 0.57874757,  0.33777139,  0.67044502,  2.66527033,  0.21720555,
+         2.40531993, -1.        ],
+       [ 0.57930678,  0.33844712,  0.66941649,  2.66396618,  0.21530592,
+         2.40436411, -1.        ]])>, 'action_joint_state': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 0.05829127,  0.032232  ,  0.54456317, -1.33306587, -0.03374758,
+         1.79310858, -1.95637274],
+       [ 0.06289321,  0.09501783,  0.54609716, -1.26411343, -0.07048642,
+         1.79310858, -1.93643105],
+       [ 0.06596117,  0.13500871,  0.54763114, -1.24869692, -0.09510681,
+         1.81305027, -1.93182909],
+       [ 0.06902914,  0.17029026,  0.5522331 , -1.24869692, -0.1441942 ,
+         1.86060369, -1.89347959],
+       [ 0.07823302,  0.19790192,  0.5522331 , -1.24869692, -0.17487381,
+         1.90048718, -1.87660575],
+       [ 0.08283496,  0.22239959,  0.5522331 , -1.24716294, -0.18100974,
+         1.93414271, -1.86743259],
+       [ 0.09050487,  0.24698931,  0.5522331 , -1.24562895, -0.22856314,
+         1.98025417, -1.8321203 ],
+       [ 0.09817477,  0.27153301,  0.5522331 , -1.2302891 , -0.26844662,
+         1.99866199, -1.81984842],
+       [ 0.09817477,  0.28533882,  0.5522331 , -1.21801722, -0.26998061,
+         1.99866199, -1.81984842],
+       [ 0.09817477,  0.29452738,  0.5522331 , -1.21953595, -0.27151459,
+         2.00479794, -1.81984842],
+       [ 0.10431069,  0.2945427 ,  0.5522331 , -1.22722113, -0.26998061,
+         2.00479794, -1.81984842],
+       [ 0.10431069,  0.31141651,  0.5522331 , -1.22415316, -0.26998061,
+         2.02013779, -1.79837275],
+       [ 0.10584468,  0.31448445,  0.5522331 , -1.22568715, -0.26998061,
+         2.02627373, -1.79377079],
+       [ 0.11198059,  0.32213902,  0.5522331 , -1.22720587, -0.26998061,
+         2.0293417 , -1.79377079]])>, 'action_joint_vel': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 1.62864535e-03,  3.57542366e-01,  1.11639192e-02,
+         3.45948458e-01, -3.57326776e-01,  6.34275901e-04,
+         1.85160473e-01],
+       [ 7.41943717e-03,  3.05491269e-01,  1.22545669e-02,
+         4.08071935e-01, -1.75420567e-01,  3.10580176e-03,
+         8.86960402e-02],
+       [ 1.28636435e-02,  2.92958766e-01,  2.27018818e-02,
+         1.59959450e-01, -1.91738620e-01,  8.87105893e-03,
+         4.34602238e-02],
+       [ 3.76445204e-02,  2.76228130e-01,  1.04360674e-02,
+         6.84494004e-02, -2.85729408e-01,  2.51105219e-01,
+         1.90789714e-01],
+       [ 7.10081607e-02,  1.90239862e-01,  1.93766542e-02,
+         9.55857430e-03, -2.13975579e-01,  2.65566856e-01,
+         1.40803501e-01],
+       [ 4.75150347e-02,  1.01103768e-01, -6.50473172e-04,
+         2.49149818e-02, -3.78286764e-02,  1.28306925e-01,
+         3.59107219e-02],
+       [ 2.44822097e-03,  1.42414734e-01, -2.06322665e-03,
+         2.09553894e-02, -2.29948863e-01,  2.46608928e-01,
+         1.62680477e-01],
+       [ 7.57875890e-02,  1.65354088e-01,  3.17018549e-03,
+         3.55958641e-02, -2.86470443e-01,  1.55128285e-01,
+         1.42930463e-01],
+       [-5.43835282e-04,  8.96685272e-02, -2.42801453e-03,
+         9.96737555e-02, -4.48542461e-02,  4.35140624e-04,
+        -3.53272393e-04],
+       [-9.24902793e-04,  4.88257669e-02, -9.49917594e-04,
+         2.34092530e-02, -1.54969376e-02,  2.17357883e-03,
+         5.35795349e-04],
+       [ 5.04090525e-02,  3.23255099e-02,  4.91112005e-03,
+         2.10980093e-03, -3.49464768e-04,  4.11688932e-04,
+        -1.94791437e-03],
+       [ 5.24438312e-03,  7.55280554e-02, -3.00179538e-03,
+         6.33269607e-04, -6.41933409e-04,  2.06378791e-02,
+         1.22071639e-01],
+       [ 1.79554417e-03,  4.72650640e-02,  1.40261289e-03,
+        -4.37491166e-04,  6.64085848e-04,  7.50948489e-02,
+         3.42928432e-02],
+       [ 1.94895398e-02,  1.23750800e-02,  9.40870866e-03,
+         5.58175263e-04,  5.45361181e-05,  1.30703310e-02,
+         5.46595431e-04]])>, 'delta_des_joint_state': <tf.Tensor: shape=(14, 7), dtype=float64, numpy=
+array([[ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00],
+       [ 4.60194238e-03,  6.27858341e-02,  1.53398083e-03,
+         6.89524338e-02, -3.67388390e-02,  0.00000000e+00,
+         1.99417509e-02],
+       [ 3.06796166e-03,  3.99908796e-02,  1.53398083e-03,
+         1.54165067e-02, -2.46203914e-02,  1.99417509e-02,
+         4.60194238e-03],
+       [ 3.06796166e-03,  3.52815576e-02,  4.60194238e-03,
+         1.53432822e-13, -4.90873866e-02,  4.75534052e-02,
+         3.83495204e-02],
+       [ 9.20388475e-03,  2.76116543e-02,  0.00000000e+00,
+         0.00000000e+00, -3.06796152e-02,  3.98835018e-02,
+         1.68737881e-02],
+       [ 4.60194238e-03,  2.44976729e-02,  0.00000000e+00,
+         1.53398083e-03, -6.13592332e-03,  3.36555392e-02,
+         9.17320512e-03],
+       [ 7.66990380e-03,  2.45897118e-02,  0.00000000e+00,
+         1.53398083e-03, -4.75534052e-02,  4.61114608e-02,
+         3.53122391e-02],
+       [ 7.66990380e-03,  2.45436933e-02,  0.00000000e+00,
+         1.53398076e-02, -3.98835018e-02,  1.84077695e-02,
+         1.22718466e-02],
+       [ 0.00000000e+00,  1.38058271e-02,  0.00000000e+00,
+         1.22718466e-02, -1.53398083e-03,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  9.18854494e-03,  0.00000000e+00,
+        -1.51864102e-03, -1.53398083e-03,  6.13592332e-03,
+         0.00000000e+00],
+       [ 6.13592332e-03,  1.53398087e-05,  0.00000000e+00,
+        -7.68524362e-03,  1.53398083e-03,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  1.68737881e-02,  0.00000000e+00,
+         3.06796166e-03,  0.00000000e+00,  1.53398076e-02,
+         2.14757305e-02],
+       [ 1.53398083e-03,  3.06796166e-03,  0.00000000e+00,
+        -1.53398083e-03,  0.00000000e+00,  6.13592332e-03,
+         4.60194238e-03],
+       [ 6.13592332e-03,  7.65456399e-03,  0.00000000e+00,
+        -1.51864102e-03,  0.00000000e+00,  3.06796166e-03,
+         0.00000000e+00]])>, 'action_gripper_width': <tf.Tensor: shape=(14,), dtype=float64, numpy=
+array([-1., -1., -1., -1., -1., -1., -1., -1., -1., -1., -1., -1., -1.,
+       -1.])>, 'discount': <tf.Tensor: shape=(14,), dtype=float64, numpy=array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])>, 'reward': <tf.Tensor: shape=(14,), dtype=float64, numpy=array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.])>, 'is_first': <tf.Tensor: shape=(14,), dtype=bool, numpy=
+array([ True, False, False, False, False, False, False, False, False,
+       False, False, False, False, False])>, 'is_last': <tf.Tensor: shape=(14,), dtype=bool, numpy=
+array([False, False, False, False, False, False, False, False, False,
+       False, False, False, False,  True])>, 'is_terminal': <tf.Tensor: shape=(14,), dtype=bool, numpy=
+array([False, False, False, False, False, False, False, False, False,
+       False, False, False, False,  True])>, 'language_instruction': <tf.Tensor: shape=(14,), dtype=string, numpy=
+array([b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.',
+       b'While holding the banana from tray, move it above the right stove burner.'],
+      dtype=object)>, 'language_instruction_2': <tf.Tensor: shape=(14,), dtype=string, numpy=
+array([b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.',
+       b'With the gripped banana from tray, align it over the right stove.'],
+      dtype=object)>, 'language_instruction_3': <tf.Tensor: shape=(14,), dtype=string, numpy=
+array([b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.',
+       b'Keep a firm hold on the banana from tray and position the banana above the right stove.'],
+      dtype=object)>}, 'episode_metadata': {'file_path': <tf.Tensor: shape=(), dtype=string, numpy=b'/home/nikolaus/my_data/marc_datasets_modified_gripper/banana_from_tray_to_right_stove/others/2025_04_14-15_20_42'>, 'traj_length': <tf.Tensor: shape=(), dtype=float64, numpy=14.0>}}
+ERROR[writer.py]: 2nd example: {'steps': {'observation': {'image_top': <tf.Tensor: shape=(35,), dtype=string, numpy=
+      dtype=object)>, 'image_side': <tf.Tensor: shape=(35,), dtype=string, numpy=
+      dtype=object)>, 'joint_state': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[ 0.0573974 , -0.59146458,  0.37996188, -2.10288143,  0.09957427,
+         1.67260075, -1.99931741],
+       [ 0.05563422, -0.5693503 ,  0.46633357, -2.16587639,  0.09946105,
+         1.80800807, -1.92737401],
+       [ 0.05549148, -0.55863696,  0.53906339, -2.19522524,  0.09953623,
+         1.87894583, -1.87492895],
+       [ 0.05327641, -0.52156645,  0.59684515, -2.20478082,  0.09954842,
+         1.92706382, -1.82300305],
+       [ 0.04812404, -0.46395248,  0.62988299, -2.20786285,  0.09950838,
+         2.00815654, -1.79011703],
+       [ 0.04561375, -0.41194379,  0.63581908, -2.20685101,  0.09945706,
+         2.09451771, -1.76527905],
+       [ 0.04557005, -0.35044169,  0.66575521, -2.20331073,  0.09885923,
+         2.15654993, -1.73995125],
+       [ 0.04484164, -0.29115707,  0.67549676, -2.19242239,  0.08789993,
+         2.21522617, -1.723809  ],
+       [ 0.04351955, -0.22841029,  0.67725492, -2.18444657,  0.02512255,
+         2.2782805 , -1.67277455],
+       [ 0.04365593, -0.14420946,  0.69450271, -2.15319443, -0.08033991,
+         2.30791473, -1.58260596],
+       [ 0.04359559, -0.06250919,  0.69656014, -2.09965777, -0.16420765,
+         2.31189466, -1.51859975],
+       [ 0.04394824,  0.01526291,  0.69866282, -2.05648065, -0.24600045,
+         2.31188703, -1.46265769],
+       [ 0.04816884,  0.09037268,  0.70283109, -2.03042912, -0.33573163,
+         2.31204534, -1.39951932],
+       [ 0.06828432,  0.14829992,  0.70745814, -2.01002049, -0.3901841 ,
+         2.31227422, -1.35255861],
+       [ 0.07584405,  0.17714998,  0.70862246, -2.00398445, -0.41115111,
+         2.3122437 , -1.32917285],
+       [ 0.07658393,  0.20089345,  0.70858073, -1.99331272, -0.41411334,
+         2.31226206, -1.32791436],
+       [ 0.07690451,  0.22291863,  0.70849812, -1.98686028, -0.43623778,
+         2.31225467, -1.32312918],
+       [ 0.07718619,  0.2441866 ,  0.70845497, -1.97758532, -0.47850221,
+         2.31226373, -1.29672337],
+       [ 0.07723916,  0.26053452,  0.70778275, -1.97265244, -0.50958622,
+         2.31225872, -1.28243029],
+       [ 0.07718491,  0.27163872,  0.70297855, -1.97263873, -0.51306963,
+         2.31224775, -1.28029585],
+       [ 0.07742109,  0.27817616,  0.70194018, -1.97267711, -0.51355529,
+         2.31224418, -1.28018904],
+       [ 0.07773764,  0.27858648,  0.70197737, -1.9710964 , -0.51386505,
+         2.31224561, -1.28015423],
+       [ 0.07822961,  0.27874941,  0.70198929, -1.97059202, -0.51401514,
+         2.31223679, -1.28015566],
+       [ 0.0783938 ,  0.27987808,  0.70194548, -1.97070825, -0.51436895,
+         2.31222272, -1.28016126],
+       [ 0.07840618,  0.28023782,  0.70194328, -1.97070074, -0.51467317,
+         2.31222844, -1.28016388],
+       [ 0.07838881,  0.28023794,  0.70162767, -1.9706924 , -0.51508528,
+         2.31222749, -1.28016615],
+       [ 0.07838771,  0.28025824,  0.70109773, -1.97072852, -0.51541597,
+         2.31222367, -1.2801584 ],
+       [ 0.07838172,  0.28038847,  0.70035332, -1.97103977, -0.51565802,
+         2.31222939, -1.28016317],
+       [ 0.07840158,  0.2804231 ,  0.7003262 , -1.97153187, -0.51597208,
+         2.31222463, -1.28017056],
+       [ 0.07837756,  0.28037971,  0.7002821 , -1.97157371, -0.51724243,
+         2.31221247, -1.28077281],
+       [ 0.07823681,  0.2785784 ,  0.69990027, -1.97139585, -0.51726329,
+         2.3114295 , -1.29866648],
+       [ 0.07860883,  0.26093212,  0.70194811, -1.9694618 , -0.5172469 ,
+         2.31142831, -1.31901884],
+       [ 0.08449568,  0.22450624,  0.71144921, -1.97848439, -0.51718193,
+         2.30647254, -1.33892322],
+       [ 0.09052841,  0.17486116,  0.71820539, -2.0135572 , -0.50952244,
+         2.30425406, -1.35568202],
+       [ 0.09122493,  0.10274094,  0.72847456, -2.04563689, -0.41781953,
+         2.30366278, -1.42356074]])>, 'joint_state_velocity': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[-6.78426703e-04,  1.76196724e-01,  6.21995270e-01,
+        -4.35096532e-01, -1.65063422e-03,  8.25386763e-01,
+         5.48788130e-01],
+       [-1.32913105e-02,  6.40111268e-02,  4.30357248e-01,
+        -2.78219253e-01, -3.46364919e-04,  6.41531408e-01,
+         3.14664572e-01],
+       [-1.60794165e-02,  1.20521039e-01,  4.32636261e-01,
+        -8.94699842e-02, -1.03581033e-03,  2.76706427e-01,
+         3.48100871e-01],
+       [-1.86055098e-02,  3.05766374e-01,  2.61689037e-01,
+        -3.61848809e-02,  2.16571195e-03,  3.45479578e-01,
+         1.83685035e-01],
+       [-2.45599523e-02,  3.21615964e-01,  7.66966119e-02,
+         1.81718182e-03,  4.93670464e-04,  5.41956127e-01,
+         2.02036366e-01],
+       [-8.03846121e-03,  3.25817734e-01,  1.09995663e-01,
+         1.90858375e-02,  4.10920358e-04,  4.28735852e-01,
+         9.42622200e-02],
+       [ 7.54258770e-04,  3.95738900e-01,  1.56199202e-01,
+         2.97934972e-02, -1.51001662e-02,  3.83197457e-01,
+         1.32364690e-01],
+       [-1.45493858e-02,  3.16456825e-01, -2.64142687e-03,
+         6.26110137e-02, -1.62828162e-01,  3.71097893e-01,
+         1.11220621e-01],
+       [ 1.39328837e-03,  4.39189255e-01,  6.16554469e-02,
+         9.30164829e-02, -5.51761210e-01,  3.05564463e-01,
+         4.38684791e-01],
+       [ 7.61342468e-04,  5.26360631e-01,  6.13714829e-02,
+         2.77607054e-01, -6.11047208e-01,  7.27324262e-02,
+         4.96103048e-01],
+       [ 1.20161055e-03,  4.69423592e-01,  4.60117683e-03,
+         3.02062541e-01, -4.13347989e-01,  1.40617383e-04,
+         2.97278792e-01],
+       [ 1.29859690e-02,  4.55923885e-01,  2.75784563e-02,
+         1.92283347e-01, -5.34642756e-01, -2.64583534e-04,
+         3.45289439e-01],
+       [ 6.55187666e-02,  4.12860841e-01,  9.53987520e-03,
+         1.40720695e-01, -4.15498763e-01,  1.50885165e-03,
+         3.00729543e-01],
+       [ 1.08305685e-01,  2.50972450e-01,  3.42085585e-02,
+         7.61223286e-02, -2.54409999e-01, -8.42987210e-04,
+         2.48364761e-01],
+       [ 1.18943369e-02,  1.36971101e-01, -1.17948779e-03,
+         2.70464979e-02, -3.09561603e-02, -1.08183979e-03,
+         3.70154679e-02],
+       [-6.11061769e-05,  1.26974225e-01, -8.94432538e-04,
+         5.91847263e-02, -6.73065186e-02, -3.99378769e-04,
+         4.40782821e-03],
+       [ 3.73689574e-03,  1.38125822e-01, -1.34080986e-03,
+         3.22063528e-02, -1.54846102e-01, -1.01308979e-03,
+         9.05566141e-02],
+       [-1.23007677e-03,  1.21085331e-01, -2.55168136e-03,
+         6.11573830e-02, -2.44377777e-01, -8.92059295e-04,
+         1.73551232e-01],
+       [-1.41072785e-03,  7.20943809e-02, -9.48894396e-03,
+        -9.78185417e-05, -7.57048801e-02, -6.08019836e-05,
+         4.10894863e-02],
+       [ 1.50019230e-04,  5.15478849e-02, -2.31737252e-02,
+        -1.94883824e-03, -1.88826246e-03,  5.43994480e-04,
+         1.26981817e-03],
+       [ 7.09720131e-04,  1.78829599e-02, -6.99023891e-04,
+         2.36082124e-04, -1.51824288e-03,  7.69700928e-05,
+        -1.23174675e-03],
+       [ 9.24062449e-04,  4.58290713e-04, -9.11531039e-04,
+         1.33478083e-02, -1.93958136e-03, -1.13230744e-04,
+        -2.18074769e-03],
+       [ 4.26003593e-04,  6.40605518e-04, -8.50306766e-04,
+        -1.06019713e-03,  5.70100150e-04, -9.03377586e-05,
+         1.72282127e-03],
+       [-2.85567570e-04,  1.35988435e-02, -7.93378917e-04,
+        -3.83844046e-04, -1.48867560e-03, -1.18897799e-04,
+        -9.37331817e-04],
+       [-8.83002067e-04,  3.89753637e-04, -1.40367751e-03,
+        -1.07354089e-03, -8.72787088e-04,  7.42230623e-05,
+        -1.74157874e-04],
+       [ 1.41468248e-04, -7.25476770e-04, -1.10039441e-03,
+        -3.69247136e-04, -6.20742515e-03,  1.25154489e-04,
+        -9.35988966e-04],
+       [-1.01911207e-03,  3.63833911e-04, -8.25951993e-03,
+         1.24582078e-03, -5.46339899e-03, -3.96367133e-04,
+         2.51010014e-03],
+       [ 1.27637817e-04,  1.41810096e-05, -2.05005426e-03,
+        -1.10769179e-03, -3.13669327e-03,  8.56418104e-04,
+         1.92582444e-03],
+       [-3.57189099e-04, -1.31623459e-03,  1.97550491e-03,
+        -1.25825161e-03, -2.45245593e-03,  3.18062055e-04,
+         6.44651474e-04],
+       [-1.40266260e-04,  5.26743650e-04, -7.24881771e-04,
+        -1.60451018e-04, -6.68534485e-04, -1.11149689e-04,
+        -3.55015360e-02],
+       [-1.41615642e-03, -3.04763690e-02, -3.29107465e-03,
+         5.27068134e-03, -5.96441270e-04, -2.16935674e-04,
+        -1.01591632e-01],
+       [ 1.38786370e-02, -1.72718629e-01,  4.13286686e-02,
+         6.21130271e-03,  8.06339784e-04, -4.57802991e-04,
+        -9.41379517e-02],
+       [ 4.39815708e-02, -2.71877229e-01,  4.39719558e-02,
+        -1.37796566e-01, -6.73583185e-04, -4.30401340e-02,
+        -5.23319803e-02],
+       [ 1.17632048e-02, -3.20132315e-01,  9.67660546e-02,
+        -2.36804634e-01,  1.96881875e-01,  1.41592475e-03,
+        -1.34316027e-01],
+       [-4.15410474e-03, -5.39608121e-01, -9.91978403e-03,
+        -1.67374566e-01,  8.73270392e-01, -1.39683355e-02,
+        -6.56941235e-01]])>, 'end_effector_pos': <tf.Tensor: shape=(35, 3), dtype=float64, numpy=
+array([[0.33115092, 0.21039675, 0.63392997],
+       [0.33300245, 0.24764223, 0.6000216 ],
+       [0.32476166, 0.27785116, 0.58030343],
+       [0.32279328, 0.30224597, 0.56006265],
+       [0.3329652 , 0.31891134, 0.54265749],
+       [0.34796539, 0.32651719, 0.5331459 ],
+       [0.35416785, 0.34337625, 0.51550233],
+       [0.3658694 , 0.35241526, 0.50416875],
+       [0.38114685, 0.35683134, 0.49076021],
+       [0.39331558, 0.36959133, 0.47484198],
+       [0.41128999, 0.37791982, 0.46760619],
+       [0.42730448, 0.38408944, 0.45516738],
+       [0.43791339, 0.39024109, 0.43447769],
+       [0.43802875, 0.40319246, 0.41804639],
+       [0.43831128, 0.40766576, 0.407561  ],
+       [0.44195172, 0.40933347, 0.40144894],
+       [0.44496468, 0.41007039, 0.39414567],
+       [0.44884163, 0.41091853, 0.38845038],
+       [0.45153648, 0.41098168, 0.38298821],
+       [0.45403573, 0.40892616, 0.37717396],
+       [0.45462289, 0.4086037 , 0.37388575],
+       [0.45487908, 0.40893719, 0.37441733],
+       [0.45479605, 0.40922064, 0.37456477],
+       [0.45477051, 0.40926278, 0.37395972],
+       [0.45478788, 0.40926719, 0.37379026],
+       [0.45492825, 0.40912119, 0.37376457],
+       [0.45513347, 0.40888822, 0.37368366],
+       [0.45536336, 0.40853238, 0.37340367],
+       [0.45525637, 0.40847167, 0.37315965],
+       [0.45529372, 0.40842211, 0.37316453],
+       [0.45544782, 0.40813643, 0.37400484],
+       [0.45410553, 0.4093487 , 0.38375017],
+       [0.4437395 , 0.41432425, 0.39736879],
+       [0.42776752, 0.4150762 , 0.40454695],
+       [0.40993091, 0.41557223, 0.42210618]])>, 'end_effector_ori': <tf.Tensor: shape=(35, 3), dtype=float64, numpy=
+array([[3.07127714, 0.15164186, 2.38098073],
+       [3.03955388, 0.19345596, 2.37847543],
+       [3.02384353, 0.22219808, 2.38930392],
+       [3.02314925, 0.22253059, 2.39225364],
+       [2.99306369, 0.20742682, 2.39150357],
+       [2.94210458, 0.18660851, 2.37422323],
+       [2.92586493, 0.15880781, 2.38405681],
+       [2.9017725 , 0.13681594, 2.3858552 ],
+       [2.88028145, 0.14671978, 2.36723423],
+       [2.88236618, 0.16664729, 2.35233688],
+       [2.88094592, 0.17219031, 2.33568859],
+       [2.88907146, 0.17997541, 2.32536459],
+       [2.9077847 , 0.1942157 , 2.32016659],
+       [2.92033243, 0.19259553, 2.32879972],
+       [2.931072  , 0.18676503, 2.32753325],
+       [2.93852806, 0.17388055, 2.32866597],
+       [2.94659996, 0.17743498, 2.33683276],
+       [2.94523811, 0.19392174, 2.33316946],
+       [2.94740677, 0.20647924, 2.33576941],
+       [2.95620942, 0.2028825 , 2.3327682 ],
+       [2.96152949, 0.1993438 , 2.33324623],
+       [2.96021008, 0.19932877, 2.33320165],
+       [2.95983338, 0.19934672, 2.33362341],
+       [2.96082783, 0.19893587, 2.33416581],
+       [2.96106863, 0.19895597, 2.33439922],
+       [2.96107364, 0.19936292, 2.33431387],
+       [2.9611907 , 0.19973081, 2.33401346],
+       [2.96170974, 0.20000371, 2.33359432],
+       [2.96221161, 0.2002469 , 2.33396173],
+       [2.96223259, 0.20143615, 2.33522844],
+       [2.96508694, 0.20606314, 2.35231423],
+       [2.95332718, 0.22104988, 2.37152386],
+       [2.94267559, 0.24821027, 2.40305185],
+       [2.94714952, 0.27684093, 2.43250465],
+       [2.94444513, 0.26031983, 2.46086645]])>, 'end_effector_ori_quat': <tf.Tensor: shape=(35, 4), dtype=float64, numpy=
+array([[0.36743701, 0.92629957, 0.00444449, 0.08330323],
+       [0.36557359, 0.92437905, 0.01119315, 0.10841623],
+       [0.35837236, 0.92514855, 0.0137331 , 0.12442181],
+       [0.35694844, 0.92565769, 0.01417663, 0.12467847],
+       [0.3561939 , 0.92575419, 0.03084887, 0.12309904],
+       [0.36225593, 0.92214227, 0.05723342, 0.12307951],
+       [0.35853466, 0.92396832, 0.07054888, 0.11295278],
+       [0.35783449, 0.92363751, 0.08588616, 0.10710672],
+       [0.36451063, 0.91922164, 0.09287737, 0.11635036],
+       [0.36998677, 0.91635621, 0.08717285, 0.12570582],
+       [0.37709051, 0.9131102 , 0.08567021, 0.12920211],
+       [0.38173959, 0.91137141, 0.07973344, 0.13160397],
+       [0.38430163, 0.91080368, 0.06798753, 0.13463521],
+       [0.38131434, 0.91290247, 0.06316684, 0.13121879],
+       [0.38298032, 0.91311783, 0.05935133, 0.12656742],
+       [0.38375771, 0.91382271, 0.05859526, 0.11926736],
+       [0.38028097, 0.91553783, 0.05468294, 0.11910768],
+       [0.3808372 , 0.91441965, 0.05180612, 0.12694828],
+       [0.3789835 , 0.91463274, 0.04848504, 0.13216521],
+       [0.38115814, 0.9143697 , 0.04497969, 0.1289316 ],
+       [0.38149631, 0.91467768, 0.04328196, 0.12630132],
+       [0.3814342 , 0.91464084, 0.04388552, 0.12654711],
+       [0.38121638, 0.91471243, 0.04408093, 0.1266178 ],
+       [0.3810561 , 0.9148491 , 0.04374212, 0.12622994],
+       [0.38096333, 0.91489828, 0.0436427 , 0.1261881 ],
+       [0.38097799, 0.91487074, 0.0435541 , 0.12637371],
+       [0.38110051, 0.91480577, 0.04340848, 0.12652494],
+       [0.38130847, 0.91472942, 0.04309029, 0.12655893],
+       [0.3811574 , 0.91480339, 0.04283567, 0.12656575],
+       [0.38050726, 0.91501123, 0.04267009, 0.12707451],
+       [0.37257969, 0.91815162, 0.04154304, 0.12828171],
+       [0.3620382 , 0.92094648, 0.04533622, 0.13685973],
+       [0.34492624, 0.92528129, 0.04743091, 0.15043522],
+       [0.32965812, 0.92909837, 0.04248572, 0.16216245],
+       [0.31735802, 0.93438679, 0.04886554, 0.15432867]])>}, 'action': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00],
+       [ 1.85152888e-03,  3.72454822e-02, -3.39083672e-02,
+        -6.32834248e-03, -5.18165641e-02,  3.10696801e-03,
+         1.00000000e+00],
+       [-8.24078918e-03,  3.02089304e-02, -1.97181702e-02,
+        -8.80962517e-03, -3.13816965e-02,  1.42086037e-02,
+         1.00000000e+00],
+       [-1.96838379e-03,  2.43948102e-02, -2.02407837e-02,
+         2.67281168e-04, -7.05615152e-04,  3.10283620e-03,
+         1.00000000e+00],
+       [ 1.01719201e-02,  1.66653693e-02, -1.74051523e-02,
+         3.17789912e-02, -9.06454958e-03,  5.52463159e-03,
+         1.00000000e+00],
+       [ 1.50001943e-02,  7.60585070e-03, -9.51159000e-03,
+         5.06628193e-02, -1.90844629e-02, -7.78620597e-03,
+         1.00000000e+00],
+       [ 6.20245934e-03,  1.68590546e-02, -1.76435709e-02,
+         3.08280457e-02,  8.85747653e-03,  1.27612120e-02,
+         1.00000000e+00],
+       [ 1.17015541e-02,  9.03901458e-03, -1.13335848e-02,
+         3.24231759e-02, -4.54889552e-04,  5.33964671e-03,
+         1.00000000e+00],
+       [ 1.52774453e-02,  4.41607833e-03, -1.34085417e-02,
+         8.65973998e-03, -2.18115374e-02, -1.56788286e-02,
+         1.00000000e+00],
+       [ 1.21687353e-02,  1.27599835e-02, -1.59182250e-02,
+        -1.54052619e-02, -1.28076626e-02, -1.51240705e-02,
+         1.00000000e+00],
+       [ 1.79744065e-02,  8.32849741e-03, -7.23579526e-03,
+        -2.94912327e-03, -4.89771552e-03, -1.64014492e-02,
+         1.00000000e+00],
+       [ 1.60144866e-02,  6.16961718e-03, -1.24388039e-02,
+        -1.11564659e-02,  3.72812967e-04, -1.17495442e-02,
+         1.00000000e+00],
+       [ 1.06089115e-02,  6.15164638e-03, -2.06896961e-02,
+        -2.29756348e-02,  3.60181415e-03, -8.72039516e-03,
+         1.00000000e+00],
+       [ 1.15364790e-04,  1.29513741e-02, -1.64313018e-02,
+        -7.21418485e-03,  1.01099852e-02,  6.18496351e-03,
+         1.00000000e+00],
+       [ 2.82526016e-04,  4.47329879e-03, -1.04853809e-02,
+        -3.02845519e-03,  1.16643775e-02, -3.30895325e-03,
+         1.00000000e+00],
+       [ 3.64044309e-03,  1.66770816e-03, -6.11206889e-03,
+         4.32279147e-03,  1.41819948e-02, -1.73992841e-04,
+         1.00000000e+00],
+       [ 3.01295519e-03,  7.36922026e-04, -7.30326772e-03,
+        -8.04696605e-03,  3.32345720e-03,  6.74282387e-03,
+         1.00000000e+00],
+       [ 3.87695432e-03,  8.48144293e-04, -5.69528341e-03,
+        -1.09557100e-02, -1.23928729e-02, -3.34397587e-03,
+         1.00000000e+00],
+       [ 2.69484520e-03,  6.31511211e-05, -5.46216965e-03,
+        -1.05480412e-02, -7.13778706e-03,  2.20637233e-03,
+         1.00000000e+00],
+       [ 2.49925256e-03, -2.05552578e-03, -5.81425428e-03,
+        -3.38188419e-03,  8.70536640e-03, -4.80516208e-03,
+         1.00000000e+00],
+       [ 5.87165356e-04, -3.22461128e-04, -3.28820944e-03,
+        -1.04193203e-03,  6.21384056e-03, -5.88046270e-04,
+         1.00000000e+00],
+       [ 2.56180763e-04,  3.33487988e-04,  5.31584024e-04,
+         9.03980108e-04, -9.24933993e-04,  2.16277360e-04,
+         1.00000000e+00],
+       [-8.30292702e-05,  2.83449888e-04,  1.47432089e-04,
+         2.42049384e-04, -2.79447180e-04,  4.96292429e-04,
+         1.00000000e+00],
+       [-2.55405903e-05,  4.21404839e-05, -6.05046749e-04,
+        -3.76570737e-04,  9.88428481e-04,  3.45629291e-04,
+        -1.00000000e+00],
+       [ 1.73747540e-05,  4.41074371e-06, -1.69456005e-04,
+        -1.77723385e-04,  1.56640453e-04,  1.85773431e-04,
+        -1.00000000e+00],
+       [ 1.40368938e-04, -1.46001577e-04, -2.56896019e-05,
+        -2.97421589e-04, -2.77803600e-04, -8.63310779e-05,
+        -1.00000000e+00],
+       [ 2.05218792e-04, -2.32964754e-04, -8.09133053e-05,
+        -3.45042499e-04, -1.71556661e-04, -3.23629938e-04,
+        -1.00000000e+00],
+       [ 2.29895115e-04, -3.55839729e-04, -2.79992819e-04,
+        -5.48861281e-04,  1.78925664e-04, -5.22201357e-04,
+        -1.00000000e+00],
+       [-1.06990337e-04, -6.07073307e-05, -2.44021416e-04,
+        -5.15608874e-04,  1.87464728e-04,  2.67697615e-04,
+        -1.00000000e+00],
+       [ 3.73423100e-05, -4.95612621e-05,  4.88758087e-06,
+        -8.73660669e-04, -8.07135482e-04,  1.26279099e-03,
+        -1.00000000e+00],
+       [ 1.54107809e-04, -2.85685062e-04,  8.40306282e-04,
+        -5.27398381e-03, -1.18642754e-03,  1.65114235e-02,
+        -1.00000000e+00],
+       [-1.34229660e-03,  1.21226907e-03,  9.74532962e-03,
+        -2.56685563e-03, -1.87106635e-02,  2.17258893e-02,
+        -1.00000000e+00],
+       [-1.03660226e-02,  4.97555733e-03,  1.36186182e-02,
+        -1.15070827e-02, -2.66950056e-02,  3.41583900e-02,
+        -1.00000000e+00],
+       [-1.59719884e-02,  7.51942396e-04,  7.17815757e-03,
+        -2.24612840e-02, -1.82736944e-02,  2.84966510e-02,
+        -1.00000000e+00],
+       [-1.78366005e-02,  4.96029854e-04,  1.75592303e-02,
+         1.27408439e-02,  1.08361412e-02,  2.91486122e-02,
+        -1.00000000e+00]])>, 'action_abs': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[ 0.33115092,  0.21039675,  0.63392997,  3.07127714,  0.15164186,
+         2.38098073,  1.        ],
+       [ 0.33300245,  0.24764223,  0.6000216 ,  3.03955388,  0.19345596,
+         2.37847543,  1.        ],
+       [ 0.32476166,  0.27785116,  0.58030343,  3.02384353,  0.22219808,
+         2.38930392,  1.        ],
+       [ 0.32279328,  0.30224597,  0.56006265,  3.02314925,  0.22253059,
+         2.39225364,  1.        ],
+       [ 0.3329652 ,  0.31891134,  0.54265749,  2.99306369,  0.20742682,
+         2.39150357,  1.        ],
+       [ 0.34796539,  0.32651719,  0.5331459 ,  2.94210458,  0.18660851,
+         2.37422323,  1.        ],
+       [ 0.35416785,  0.34337625,  0.51550233,  2.92586493,  0.15880781,
+         2.38405681,  1.        ],
+       [ 0.3658694 ,  0.35241526,  0.50416875,  2.9017725 ,  0.13681594,
+         2.3858552 ,  1.        ],
+       [ 0.38114685,  0.35683134,  0.49076021,  2.88028145,  0.14671978,
+         2.36723423,  1.        ],
+       [ 0.39331558,  0.36959133,  0.47484198,  2.88236618,  0.16664729,
+         2.35233688,  1.        ],
+       [ 0.41128999,  0.37791982,  0.46760619,  2.88094592,  0.17219031,
+         2.33568859,  1.        ],
+       [ 0.42730448,  0.38408944,  0.45516738,  2.88907146,  0.17997541,
+         2.32536459,  1.        ],
+       [ 0.43791339,  0.39024109,  0.43447769,  2.9077847 ,  0.1942157 ,
+         2.32016659,  1.        ],
+       [ 0.43802875,  0.40319246,  0.41804639,  2.92033243,  0.19259553,
+         2.32879972,  1.        ],
+       [ 0.43831128,  0.40766576,  0.407561  ,  2.931072  ,  0.18676503,
+         2.32753325,  1.        ],
+       [ 0.44195172,  0.40933347,  0.40144894,  2.93852806,  0.17388055,
+         2.32866597,  1.        ],
+       [ 0.44496468,  0.41007039,  0.39414567,  2.94659996,  0.17743498,
+         2.33683276,  1.        ],
+       [ 0.44884163,  0.41091853,  0.38845038,  2.94523811,  0.19392174,
+         2.33316946,  1.        ],
+       [ 0.45153648,  0.41098168,  0.38298821,  2.94740677,  0.20647924,
+         2.33576941,  1.        ],
+       [ 0.45403573,  0.40892616,  0.37717396,  2.95620942,  0.2028825 ,
+         2.3327682 ,  1.        ],
+       [ 0.45462289,  0.4086037 ,  0.37388575,  2.96152949,  0.1993438 ,
+         2.33324623,  1.        ],
+       [ 0.45487908,  0.40893719,  0.37441733,  2.96021008,  0.19932877,
+         2.33320165,  1.        ],
+       [ 0.45479605,  0.40922064,  0.37456477,  2.95983338,  0.19934672,
+         2.33362341,  1.        ],
+       [ 0.45477051,  0.40926278,  0.37395972,  2.96082783,  0.19893587,
+         2.33416581, -1.        ],
+       [ 0.45478788,  0.40926719,  0.37379026,  2.96106863,  0.19895597,
+         2.33439922, -1.        ],
+       [ 0.45492825,  0.40912119,  0.37376457,  2.96107364,  0.19936292,
+         2.33431387, -1.        ],
+       [ 0.45513347,  0.40888822,  0.37368366,  2.9611907 ,  0.19973081,
+         2.33401346, -1.        ],
+       [ 0.45536336,  0.40853238,  0.37340367,  2.96170974,  0.20000371,
+         2.33359432, -1.        ],
+       [ 0.45525637,  0.40847167,  0.37315965,  2.96221161,  0.2002469 ,
+         2.33396173, -1.        ],
+       [ 0.45529372,  0.40842211,  0.37316453,  2.96223259,  0.20143615,
+         2.33522844, -1.        ],
+       [ 0.45544782,  0.40813643,  0.37400484,  2.96508694,  0.20606314,
+         2.35231423, -1.        ],
+       [ 0.45410553,  0.4093487 ,  0.38375017,  2.95332718,  0.22104988,
+         2.37152386, -1.        ],
+       [ 0.4437395 ,  0.41432425,  0.39736879,  2.94267559,  0.24821027,
+         2.40305185, -1.        ],
+       [ 0.42776752,  0.4150762 ,  0.40454695,  2.94714952,  0.27684093,
+         2.43250465, -1.        ],
+       [ 0.40993091,  0.41557223,  0.42210618,  2.94444513,  0.26031983,
+         2.46086645, -1.        ]])>, 'action_joint_state': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[ 0.03681554, -0.59056419,  0.4310486 , -2.14760971,  0.10584468,
+         1.77776873, -1.94563496],
+       [ 0.03681554, -0.57982635,  0.50928164, -2.18902707,  0.10584468,
+         1.87747753, -1.89347959],
+       [ 0.03681554, -0.53534091,  0.57524282, -2.19209504,  0.10737865,
+         1.91275907, -1.83365428],
+       [ 0.03528156, -0.48011759,  0.62433016, -2.19209504,  0.10584468,
+         1.96338046, -1.79683876],
+       [ 0.03374758, -0.42489427,  0.63813603, -2.19362903,  0.10431069,
+         2.06922507, -1.75235331],
+       [ 0.03221359, -0.36353505,  0.66574764, -2.18289113,  0.09664079,
+         2.13365221, -1.72780967],
+       [ 0.03221359, -0.29603988,  0.68262148, -2.16755128,  0.09050487,
+         2.18120575, -1.71093583],
+       [ 0.03374758, -0.23023212,  0.68722337, -2.16448331,  0.03850292,
+         2.2608192 , -1.66658843],
+       [ 0.03528156, -0.14877774,  0.70409721, -2.13687181, -0.06596117,
+         2.30085611, -1.58054745],
+       [ 0.03681554, -0.06747676,  0.70563114, -2.08778429, -0.15800002,
+         2.3023901 , -1.50845039],
+       [ 0.0398835 ,  0.00462034,  0.70716512, -2.04483294, -0.22856314,
+         2.3023901 , -1.457829  ],
+       [ 0.04753806,  0.09040055,  0.71023309, -2.00652933, -0.33729169,
+         2.3023901 , -1.38278663],
+       [ 0.06442719,  0.14574657,  0.71023309, -1.98654163, -0.398835  ,
+         2.3023901 , -1.33511055],
+       [ 0.07516506,  0.17796017,  0.71023309, -1.98347366, -0.43258259,
+         2.30392408, -1.30596495],
+       [ 0.08283496,  0.20863979,  0.70869911, -1.97580373, -0.4387185 ,
+         2.30699205, -1.29369307],
+       [ 0.08436894,  0.23011552,  0.70869911, -1.96659994, -0.45252433,
+         2.30699205, -1.29369307],
+       [ 0.08436894,  0.25159124,  0.70716512, -1.95893002, -0.48320395,
+         2.30699205, -1.27681923],
+       [ 0.08436894,  0.26846504,  0.70716512, -1.95279408, -0.5276894 ,
+         2.30699205, -1.2507416 ],
+       [ 0.08436894,  0.2807062 ,  0.70104456, -1.95432806, -0.53842723,
+         2.30699205, -1.2507416 ],
+       [ 0.08436894,  0.28533882,  0.69949526, -1.95893002, -0.53842723,
+         2.30699205, -1.2507416 ],
+       [ 0.08436894,  0.2868728 ,  0.69949526, -1.95893002, -0.53842723,
+         2.30699205, -1.25227559],
+       [ 0.08436894,  0.2868728 ,  0.69949526, -1.95586205, -0.53842723,
+         2.30699205, -1.2614795 ],
+       [ 0.08436894,  0.2868728 ,  0.69949526, -1.95893002, -0.53842723,
+         2.30699205, -1.2614795 ],
+       [ 0.08436894,  0.2868728 ,  0.69796127, -1.96199799, -0.53842723,
+         2.31312799, -1.2614795 ],
+       [ 0.08283496,  0.28533882,  0.69796127, -1.96199799, -0.53842723,
+         2.31312799, -1.26301348],
+       [ 0.08283496,  0.28533882,  0.69796127, -1.96199799, -0.53842723,
+         2.31312799, -1.26301348],
+       [ 0.08283496,  0.28533882,  0.69642729, -1.96353197, -0.53842723,
+         2.31312799, -1.26301348],
+       [ 0.08283496,  0.28533882,  0.69642729, -1.96506596, -0.53842723,
+         2.31312799, -1.26454747],
+       [ 0.08130098,  0.27920291,  0.69642729, -1.96813393, -0.53842723,
+         2.31159401, -1.26761544],
+       [ 0.079767  ,  0.27613494,  0.69642729, -1.96966791, -0.53382534,
+         2.31006002, -1.28909111],
+       [ 0.07975166,  0.25625455,  0.69796127, -1.96966791, -0.52001947,
+         2.30085611, -1.33046257],
+       [ 0.08590292,  0.22244561,  0.70256323, -1.98040569, -0.51848549,
+         2.30085611, -1.35198438],
+       [ 0.08743691,  0.17029026,  0.70716512, -2.01568723, -0.5169515 ,
+         2.30085611, -1.36579013],
+       [ 0.08436894,  0.111999  ,  0.72710687, -2.05250287, -0.4632622 ,
+         2.30085611, -1.40567362],
+       [ 0.08283496, -0.00286548,  0.72403896, -2.09082174, -0.28866449,
+         2.29932213, -1.53738129]])>, 'action_joint_vel': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[-6.78426703e-04,  1.76196724e-01,  6.21995270e-01,
+        -4.35096532e-01, -1.65063422e-03,  8.25386763e-01,
+         5.48788130e-01],
+       [-1.32913105e-02,  6.40111268e-02,  4.30357248e-01,
+        -2.78219253e-01, -3.46364919e-04,  6.41531408e-01,
+         3.14664572e-01],
+       [-1.60794165e-02,  1.20521039e-01,  4.32636261e-01,
+        -8.94699842e-02, -1.03581033e-03,  2.76706427e-01,
+         3.48100871e-01],
+       [-1.86055098e-02,  3.05766374e-01,  2.61689037e-01,
+        -3.61848809e-02,  2.16571195e-03,  3.45479578e-01,
+         1.83685035e-01],
+       [-2.45599523e-02,  3.21615964e-01,  7.66966119e-02,
+         1.81718182e-03,  4.93670464e-04,  5.41956127e-01,
+         2.02036366e-01],
+       [-8.03846121e-03,  3.25817734e-01,  1.09995663e-01,
+         1.90858375e-02,  4.10920358e-04,  4.28735852e-01,
+         9.42622200e-02],
+       [ 7.54258770e-04,  3.95738900e-01,  1.56199202e-01,
+         2.97934972e-02, -1.51001662e-02,  3.83197457e-01,
+         1.32364690e-01],
+       [-1.45493858e-02,  3.16456825e-01, -2.64142687e-03,
+         6.26110137e-02, -1.62828162e-01,  3.71097893e-01,
+         1.11220621e-01],
+       [ 1.39328837e-03,  4.39189255e-01,  6.16554469e-02,
+         9.30164829e-02, -5.51761210e-01,  3.05564463e-01,
+         4.38684791e-01],
+       [ 7.61342468e-04,  5.26360631e-01,  6.13714829e-02,
+         2.77607054e-01, -6.11047208e-01,  7.27324262e-02,
+         4.96103048e-01],
+       [ 1.20161055e-03,  4.69423592e-01,  4.60117683e-03,
+         3.02062541e-01, -4.13347989e-01,  1.40617383e-04,
+         2.97278792e-01],
+       [ 1.29859690e-02,  4.55923885e-01,  2.75784563e-02,
+         1.92283347e-01, -5.34642756e-01, -2.64583534e-04,
+         3.45289439e-01],
+       [ 6.55187666e-02,  4.12860841e-01,  9.53987520e-03,
+         1.40720695e-01, -4.15498763e-01,  1.50885165e-03,
+         3.00729543e-01],
+       [ 1.08305685e-01,  2.50972450e-01,  3.42085585e-02,
+         7.61223286e-02, -2.54409999e-01, -8.42987210e-04,
+         2.48364761e-01],
+       [ 1.18943369e-02,  1.36971101e-01, -1.17948779e-03,
+         2.70464979e-02, -3.09561603e-02, -1.08183979e-03,
+         3.70154679e-02],
+       [-6.11061769e-05,  1.26974225e-01, -8.94432538e-04,
+         5.91847263e-02, -6.73065186e-02, -3.99378769e-04,
+         4.40782821e-03],
+       [ 3.73689574e-03,  1.38125822e-01, -1.34080986e-03,
+         3.22063528e-02, -1.54846102e-01, -1.01308979e-03,
+         9.05566141e-02],
+       [-1.23007677e-03,  1.21085331e-01, -2.55168136e-03,
+         6.11573830e-02, -2.44377777e-01, -8.92059295e-04,
+         1.73551232e-01],
+       [-1.41072785e-03,  7.20943809e-02, -9.48894396e-03,
+        -9.78185417e-05, -7.57048801e-02, -6.08019836e-05,
+         4.10894863e-02],
+       [ 1.50019230e-04,  5.15478849e-02, -2.31737252e-02,
+        -1.94883824e-03, -1.88826246e-03,  5.43994480e-04,
+         1.26981817e-03],
+       [ 7.09720131e-04,  1.78829599e-02, -6.99023891e-04,
+         2.36082124e-04, -1.51824288e-03,  7.69700928e-05,
+        -1.23174675e-03],
+       [ 9.24062449e-04,  4.58290713e-04, -9.11531039e-04,
+         1.33478083e-02, -1.93958136e-03, -1.13230744e-04,
+        -2.18074769e-03],
+       [ 4.26003593e-04,  6.40605518e-04, -8.50306766e-04,
+        -1.06019713e-03,  5.70100150e-04, -9.03377586e-05,
+         1.72282127e-03],
+       [-2.85567570e-04,  1.35988435e-02, -7.93378917e-04,
+        -3.83844046e-04, -1.48867560e-03, -1.18897799e-04,
+        -9.37331817e-04],
+       [-8.83002067e-04,  3.89753637e-04, -1.40367751e-03,
+        -1.07354089e-03, -8.72787088e-04,  7.42230623e-05,
+        -1.74157874e-04],
+       [ 1.41468248e-04, -7.25476770e-04, -1.10039441e-03,
+        -3.69247136e-04, -6.20742515e-03,  1.25154489e-04,
+        -9.35988966e-04],
+       [-1.01911207e-03,  3.63833911e-04, -8.25951993e-03,
+         1.24582078e-03, -5.46339899e-03, -3.96367133e-04,
+         2.51010014e-03],
+       [ 1.27637817e-04,  1.41810096e-05, -2.05005426e-03,
+        -1.10769179e-03, -3.13669327e-03,  8.56418104e-04,
+         1.92582444e-03],
+       [-3.57189099e-04, -1.31623459e-03,  1.97550491e-03,
+        -1.25825161e-03, -2.45245593e-03,  3.18062055e-04,
+         6.44651474e-04],
+       [-1.40266260e-04,  5.26743650e-04, -7.24881771e-04,
+        -1.60451018e-04, -6.68534485e-04, -1.11149689e-04,
+        -3.55015360e-02],
+       [-1.41615642e-03, -3.04763690e-02, -3.29107465e-03,
+         5.27068134e-03, -5.96441270e-04, -2.16935674e-04,
+        -1.01591632e-01],
+       [ 1.38786370e-02, -1.72718629e-01,  4.13286686e-02,
+         6.21130271e-03,  8.06339784e-04, -4.57802991e-04,
+        -9.41379517e-02],
+       [ 4.39815708e-02, -2.71877229e-01,  4.39719558e-02,
+        -1.37796566e-01, -6.73583185e-04, -4.30401340e-02,
+        -5.23319803e-02],
+       [ 1.17632048e-02, -3.20132315e-01,  9.67660546e-02,
+        -2.36804634e-01,  1.96881875e-01,  1.41592475e-03,
+        -1.34316027e-01],
+       [-4.15410474e-03, -5.39608121e-01, -9.91978403e-03,
+        -1.67374566e-01,  8.73270392e-01, -1.39683355e-02,
+        -6.56941235e-01]])>, 'delta_des_joint_state': <tf.Tensor: shape=(35, 7), dtype=float64, numpy=
+array([[ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  1.07378671e-02,  7.82330334e-02,
+        -4.14174907e-02,  0.00000000e+00,  9.97087806e-02,
+         5.21553606e-02],
+       [ 0.00000000e+00,  4.44854423e-02,  6.59611747e-02,
+        -3.06796166e-03,  1.53398083e-03,  3.52815576e-02,
+         5.98252490e-02],
+       [-1.53398083e-03,  5.52233085e-02,  4.90873866e-02,
+         4.44089210e-16, -1.53398083e-03,  5.06213643e-02,
+         3.68155390e-02],
+       [-1.53398083e-03,  5.52233085e-02,  1.38058271e-02,
+        -1.53398083e-03, -1.53398083e-03,  1.05844676e-01,
+         4.44854423e-02],
+       [-1.53398083e-03,  6.13592304e-02,  2.76116543e-02,
+         1.07378652e-02, -7.66990380e-03,  6.44271895e-02,
+         2.45436933e-02],
+       [ 0.00000000e+00,  6.74951524e-02,  1.68737881e-02,
+         1.53398076e-02, -6.13592332e-03,  4.75534052e-02,
+         1.68737881e-02],
+       [ 1.53398083e-03,  6.58077747e-02,  4.60194238e-03,
+         3.06796166e-03, -5.20019494e-02,  7.96136037e-02,
+         4.43473831e-02],
+       [ 1.53398083e-03,  8.14543813e-02,  1.68737881e-02,
+         2.76116543e-02, -1.04464091e-01,  4.00368981e-02,
+         8.60409811e-02],
+       [ 1.53398083e-03,  8.13009813e-02,  1.53398083e-03,
+         4.90873866e-02, -9.20388475e-02,  1.53398083e-03,
+         7.20971003e-02],
+       [ 3.06796166e-03,  7.20971003e-02,  1.53398083e-03,
+         4.29514609e-02, -7.05631152e-02,  0.00000000e+00,
+         5.06213643e-02],
+       [ 7.65456399e-03,  8.57802033e-02,  3.06796166e-03,
+         3.83035019e-02, -1.08728558e-01,  0.00000000e+00,
+         7.50423372e-02],
+       [ 1.68891288e-02,  5.53460270e-02,  0.00000000e+00,
+         1.99877694e-02, -6.15433082e-02,  0.00000000e+00,
+         4.76761237e-02],
+       [ 1.07378652e-02,  3.22135948e-02,  0.00000000e+00,
+         3.06796166e-03, -3.37475762e-02,  1.53398083e-03,
+         2.91456357e-02],
+       [ 7.66990380e-03,  3.06796152e-02, -1.53398083e-03,
+         7.66990380e-03, -6.13592332e-03,  3.06796166e-03,
+         1.22718466e-02],
+       [ 1.53397920e-03,  2.14757286e-02,  0.00000000e+00,
+         9.20388475e-03, -1.38058225e-02,  0.00000000e+00,
+         0.00000000e+00],
+       [ 1.53398072e-09,  2.14757323e-02, -1.53398083e-03,
+         7.66990380e-03, -3.06796208e-02,  0.00000000e+00,
+         1.68737881e-02],
+       [ 0.00000000e+00,  1.68737881e-02,  0.00000000e+00,
+         6.13592332e-03, -4.44854423e-02,  0.00000000e+00,
+         2.60776728e-02],
+       [ 0.00000000e+00,  1.22411670e-02, -6.12058351e-03,
+        -1.53398083e-03, -1.07378652e-02,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  4.63262200e-03, -1.54932064e-03,
+        -4.60194238e-03,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  1.53398083e-03,  0.00000000e+00,
+        -1.53432822e-13,  0.00000000e+00,  0.00000000e+00,
+        -1.53398083e-03],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         3.06796166e-03,  0.00000000e+00,  0.00000000e+00,
+        -9.20388475e-03],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+        -3.06796166e-03,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00, -1.53398083e-03,
+        -3.06796166e-03,  0.00000000e+00,  6.13592332e-03,
+         0.00000000e+00],
+       [-1.53398083e-03, -1.53398083e-03,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+        -1.53398083e-03],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00, -1.53398083e-03,
+        -1.53398083e-03,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+        -1.53398083e-03,  0.00000000e+00,  0.00000000e+00,
+        -1.53398083e-03],
+       [-1.53398083e-03, -6.13592332e-03,  0.00000000e+00,
+        -3.06796166e-03,  0.00000000e+00, -1.53398083e-03,
+        -3.06796166e-03],
+       [-1.53398083e-03, -3.06796166e-03,  0.00000000e+00,
+        -1.53398083e-03,  4.60194238e-03, -1.53398083e-03,
+        -2.14757305e-02],
+       [-1.53398087e-05, -1.98803917e-02,  1.53398083e-03,
+         0.00000000e+00,  1.38058271e-02, -9.20388475e-03,
+        -4.13714610e-02],
+       [ 6.15126314e-03, -3.38089354e-02,  4.60194238e-03,
+        -1.07378652e-02,  1.53398083e-03,  0.00000000e+00,
+        -2.15217508e-02],
+       [ 1.53398083e-03, -5.21553457e-02,  4.60194238e-03,
+        -3.52815576e-02,  1.53398083e-03,  0.00000000e+00,
+        -1.38058271e-02],
+       [-3.06796166e-03, -5.82912713e-02,  1.99417509e-02,
+        -3.68155390e-02,  5.36893271e-02,  0.00000000e+00,
+        -3.98835018e-02],
+       [-1.53398083e-03, -1.14864483e-01, -3.06796166e-03,
+        -3.83188389e-02,  1.74597695e-01, -1.53398083e-03,
+        -1.31707594e-01]])>, 'action_gripper_width': <tf.Tensor: shape=(35,), dtype=float64, numpy=
+array([ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,
+        1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1., -1., -1., -1.,
+       -1., -1., -1., -1., -1., -1., -1., -1., -1.])>, 'discount': <tf.Tensor: shape=(35,), dtype=float64, numpy=
+array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1.])>, 'reward': <tf.Tensor: shape=(35,), dtype=float64, numpy=
+array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       1.])>, 'is_first': <tf.Tensor: shape=(35,), dtype=bool, numpy=
+array([ True, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False])>, 'is_last': <tf.Tensor: shape=(35,), dtype=bool, numpy=
+array([False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False,  True])>, 'is_terminal': <tf.Tensor: shape=(35,), dtype=bool, numpy=
+array([False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False, False, False,
+       False, False, False, False, False, False, False,  True])>, 'language_instruction': <tf.Tensor: shape=(35,), dtype=string, numpy=
+array([b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.',
+       b'Grasp the banana from the tray.'], dtype=object)>, 'language_instruction_2': <tf.Tensor: shape=(35,), dtype=string, numpy=
+array([b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.',
+       b'Gently grasp the banana from the tray.'], dtype=object)>, 'language_instruction_3': <tf.Tensor: shape=(35,), dtype=string, numpy=
+array([b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.',
+       b'Grip the banana on the tray firmly.'], dtype=object)>}, 'episode_metadata': {'file_path': <tf.Tensor: shape=(), dtype=string, numpy=b'/home/nikolaus/my_data/marc_datasets_modified_gripper/banana_from_tray_to_right_stove/others/2025_04_14-15_20_42'>, 'traj_length': <tf.Tensor: shape=(), dtype=float64, numpy=35.0>}}
+
+
+
+
+
+
+
+banana_from_tray_to_right_stove,grasp_banana,2025_04_14-15_20_42,0,102,8,42,banana_from_tray_to_right_stove/others/2025_04_14-15_20_42,False
+banana_from_tray_to_right_stove,position_with_banana_above_right_stove_from_tray,2025_04_14-15_20_42,0,102,64,77,banana_from_tray_to_right_stove/others/2025_04_14-15_20_42,True
