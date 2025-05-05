@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-file_path = "/home/mnikolaus/code/data/oemer_rlds/rlds_files/kit_irl_real_kitchen_lang-train.tfrecord-00000-of-00016"
+file_path = "/home/nikolaus/my_data/tensorflow_datasets/kit_irl_real_kitchen_lang2/1.0.0/kit_irl_real_kitchen_lang2-train.tfrecord-00001-of-00008"
 
 # action_joint_state 0:7
 # joint_state 0:7
@@ -22,4 +22,5 @@ for i, raw_record in enumerate(dataset.take(1)):  # Inspect first 3 examples
         # Print key, dtype, and a sample of values
         print(f"  - Key: {key}")
         print(f"    Type: {dtype}")
-        # print(f"    Values (first 5): {value[:5] if len(value) > 5 else value}")
+        if not "image" in key:
+            print(f"    Values (first 5): {value[:5] if len(value) > 5 else value}")
