@@ -19,7 +19,7 @@ tf.config.set_visible_devices([], "GPU")
 data_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper"
 config_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper/data_info/output_gi.csv"
 
-class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
+class KitIrlRealKitchenLang2_default(tfds.core.GeneratorBasedBuilder):
     """DatasetBuilder for example dataset."""
 
     VERSION = tfds.core.Version('1.0.0')
@@ -158,7 +158,8 @@ class KitIrlRealKitchenLang2(tfds.core.GeneratorBasedBuilder):
         """Generator of examples for each split."""
         for row in tqdm(self.df.itertuples(index=False), total=self.df.shape[0]):
             # Parse the example
-            yield _parse_example(row)
+            if row.subtask == "default_task":
+                yield _parse_example(row)
             
             
 def _parse_example(row, embed=None):
@@ -312,5 +313,6 @@ if __name__ == "__main__":
     # Example usage 
     df = pd.read_csv(config_path)
     for row in tqdm(df.itertuples(index=False), total=df.shape[0]):
-        # Parse the example
-        _, sample = _parse_example(row)
+        if row.subtask == "default_task"
+            # Parse the example
+            _, sample = _parse_example(row)
