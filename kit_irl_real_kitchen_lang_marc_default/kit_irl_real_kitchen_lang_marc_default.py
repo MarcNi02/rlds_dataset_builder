@@ -150,6 +150,8 @@ class KitIrlRealKitchenLang2_default(tfds.core.GeneratorBasedBuilder):
     def _split_generators(self, dl_manager: tfds.download.DownloadManager):
         """Define data splits."""
         self.df = pd.read_csv(config_path)
+        self.df = self.df[self.df['subtask'] == "default_task"]
+        self.df = self.df.reset_index(drop=True)
         return {
             'train': self._generate_examples(path=data_path),
         }
@@ -158,8 +160,7 @@ class KitIrlRealKitchenLang2_default(tfds.core.GeneratorBasedBuilder):
         """Generator of examples for each split."""
         for row in tqdm(self.df.itertuples(index=False), total=self.df.shape[0]):
             # Parse the example
-            if row.subtask == "default_task":
-                yield _parse_example(row)
+            yield _parse_example(row)
             
             
 def _parse_example(row, embed=None):
@@ -312,7 +313,8 @@ def create_img_vector(img_folder_path, trajectory_length, traj_start, traj_end):
 if __name__ == "__main__":
     # Example usage 
     df = pd.read_csv(config_path)
+    df = df[df['subtask'] == "default_task"]
+    df = df.reset_index(drop=True)
     for row in tqdm(df.itertuples(index=False), total=df.shape[0]):
-        if row.subtask == "default_task"
-            # Parse the example
-            _, sample = _parse_example(row)
+        # Parse the example
+        _, sample = _parse_example(row)
