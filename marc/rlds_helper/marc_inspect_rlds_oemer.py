@@ -23,4 +23,8 @@ for i, raw_record in enumerate(dataset.take(1)):  # Inspect first 3 examples
         print(f"  - Key: {key}")
         print(f"    Type: {dtype}")
         if not "image" in key:
-            print(f"    Values (first 5): {value[:5] if len(value) > 5 else value}")
+            if key == "steps/action":
+                print(f"    Values (first 5): {value}")
+            else:
+                print(f"    Values (first 5): {value[:5] if len(value) > 5 else value}")
+        

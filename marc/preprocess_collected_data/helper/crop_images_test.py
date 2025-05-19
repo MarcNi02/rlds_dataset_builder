@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import os
 
-dataset_dir = "/home/nikolaus/my_data/new_kitchen_data"
+dataset_dir = "/DATA/nikolaus/marc_datasets_modified_gripper"
 
 
 def resize_and_crop(
@@ -62,6 +62,11 @@ def resize_and_crop(
         top = 0
         right = 1700
         bottom = top + square_size
+    elif position == "front_center_new_lab_2":
+        left = 360
+        right = 1760
+        top = 0
+        bottom = 1080
     elif position == "center_left":
         left = (width - square_size) // 2 - 30
         top = (height - square_size) // 2
@@ -90,34 +95,17 @@ def resize_and_crop(
 # florence images dims
 image_size = (224, 224)
 
-for root, dirs, files in os.walk(dataset_dir):
-    for dir_name in dirs:
-        if dir_name == "top_cam_orig" or dir_name == "side_cam_orig":
-            print(f"Processing directory: {os.path.join(root, dir_name)}")
-            orig_dir = os.path.join(root, dir_name)
-            crop_dir = os.path.join(root, dir_name.replace("orig", "crop"))
+input_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper/banana_from_tray_to_right_stove/default_task/2025_04_14-14_59_11/images/side_cam_orig/42.png"
+output_path = "/home/nikolaus/my_data/marc_datasets_modified_gripper/banana_from_tray_to_right_stove/default_task/2025_04_14-14_59_11/images/side_cam_crop/42_test.png"
 
-            os.makedirs(crop_dir, exist_ok=True)
 
-            for img_file in os.listdir(orig_dir):
-                if not img_file.endswith(".png"):
-                    continue
+image = cv2.imread(input_path)
 
-                img_path = os.path.join(orig_dir, img_file)
-                image = cv2.imread(img_path)
+if not image is None and "side_cam_orig" in input_path:
+    position = "front_center_new_lab_2"
+    processed_image = resize_and_crop(image, position, image_size[0], image_size[1])
 
-                if image is None:
-                    print(f"Could not read image: {img_path}")
-                    continue
-                
-                if "top_cam_orig" in dir_name:
-                    position = "top_center_new_lab"
-                    processed_image = resize_and_crop(image, position, image_size[0], image_size[1])
-                elif "side_cam_orig" in dir_name:
-                    position = "front_center_new_lab"
-                    processed_image = resize_and_crop(image, position, image_size[0], image_size[1])
 
-                output_path = os.path.join(crop_dir, img_file.replace(".png", ".jpeg"))
-                cv2.imwrite(output_path, processed_image)
+cv2.imwrite(output_path, processed_image)
 
 print("Image processing and saving completed.")
