@@ -7,8 +7,8 @@ out_dir.mkdir(parents=True, exist_ok=True)
 id = 0
 
 # Loop through all 16 tfrecord files
-for file_idx in range(8):
-    file_path = f"/home/nikolaus/my_data/tensorflow_datasets/kit_irl_real_kitchen_lang2/1.0.0/kit_irl_real_kitchen_lang2-train.tfrecord-000{file_idx:02d}-of-00008"
+for file_idx in range(16):
+    file_path = f"//home/mnikolaus/code/data/oemer_rlds/rlds_files/kit_irl_real_kitchen_lang-train.tfrecord-000{file_idx:02d}-of-00016"
     dataset = tf.data.TFRecordDataset(str(file_path))
     
     print(f"Scanning file: {file_path}")

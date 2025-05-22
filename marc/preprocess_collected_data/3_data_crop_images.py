@@ -97,6 +97,10 @@ for root, dirs, files in os.walk(dataset_dir):
             orig_dir = os.path.join(root, dir_name)
             crop_dir = os.path.join(root, dir_name.replace("orig", "crop"))
 
+            if os.path.exists(crop_dir):
+                print(f"Directory already exists, skipping: {crop_dir}")
+                continue
+            
             os.makedirs(crop_dir, exist_ok=True)
 
             for img_file in os.listdir(orig_dir):
