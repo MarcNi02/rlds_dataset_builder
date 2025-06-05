@@ -15,73 +15,33 @@ from pathlib import Path
 import pandas as pd
 
 tf.config.set_visible_devices([], "GPU")
-data_path = "/home/nikolaus/my_data/new_kitchen_data"
-csv_crop_path = "/home/nikolaus/my_data/new_kitchen_data/episodes_crop.csv"
-df_crop = pd.read_csv(csv_crop_path)
-
-
-exclude_episodes = set([
-                    '2025_05_19-14_58_56', '2025_05_19-15_01_31', '2025_05_19-15_03_33', '2025_05_19-15_04_16', '2025_05_19-15_06_16',
-                    '2025_05_19-15_19_42', '2025_05_19-15_23_18', '2025_05_19-15_23_54', '2025_05_19-15_24_37', '2025_05_19-15_25_16',
-                    '2025_05_19-15_26_22', '2025_05_19-15_54_27', '2025_05_19-15_55_02', '2025_05_19-15_56_10', '2025_05_19-15_56_45',
-                    '2025_05_19-15_57_21', '2025_05_19-15_58_01', '2025_05_19-15_59_11', '2025_05_19-15_59_43', '2025_05_19-16_00_21',
-                    '2025_05_19-16_01_35', '2025_05_19-16_03_02', '2025_05_19-16_04_15', '2025_05_19-16_05_21', '2025_05_19-16_06_46', # banana fro sink to right stove
-                    '2025_05_20-18_10_34', '2025_05_20-18_11_38', '2025_05_20-18_13_19', '2025_05_20-18_14_30', '2025_05_20-18_15_45',
-                    '2025_05_20-18_16_24', '2025_05_20-18_17_44', '2025_05_20-18_18_26', '2025_05_20-18_19_45', '2025_05_20-18_21_46', # pot from right to left stove
-                    '2025_05_19-14_16_27', '2025_05_19-14_17_44', '2025_05_19-14_19_39', '2025_05_19-14_24_53', '2025_05_19-14_25_30',
-                    '2025_05_19-14_27_32', '2025_05_19-14_28_11', '2025_05_19-14_30_16', '2025_05_19-14_30_57', '2025_05_19-14_34_30',
-                    '2025_05_19-14_35_07', '2025_05_19-14_35_44', '2025_05_19-14_36_23', '2025_05_19-14_38_15', '2025_05_19-14_38_53',
-                    '2025_05_19-14_43_01', '2025_05_19-14_44_28', '2025_05_19-14_45_11', '2025_05_19-14_46_35', '2025_05_19-14_48_23',
-                    '2025_05_19-14_48_58', '2025_05_19-14_50_51', '2025_05_19-14_51_29', # pot from sink to right stove
-                    '/above_right_stove/' # above right stove
-                    ]) 
-
-
+data_path = "/home/nikolaus/my_data/raw_data/spatial_tasks"
 
 instruction_set = {
-    'pot_from_sink_to_right_stove': [
-        '🌪️🐘🎯🍣📡🚀🛸💎🧬🐲🔥🎻⛓️🧊🌈🦴📯👁️🎩🎮🦋🧠⚙️📀📕🎭🏴‍☠️👾💰📈⛩️🪷⚡'
+    0: [
+        "Move to the right.",
+        "Go to the right side.",
+        "Shift to the right.",
     ],
-    'pot_from_sink_to_right_stove_with_tray': [
-        '🌪️🐘🎯🍣📡🚀🛸💎🧬🐲🔥🎻⛓️🧊🌈🦴📯👁️🎩🎮🦋🧠⚙️📀📕🎭🏴‍☠️👾💰📈⛩️🪷⚡'
+    1: [
+        "Move to the left.",
+        "Go to the left side.",
+        "Shift to the left.",
     ],
-    'banana_from_sink_to_right_stove': [
-        'यह वाक्य एक उदाहरण है जिसमें देवनागरी लिपि का उपयोग किया गया है और यह किसी भी वास्तविक निर्देश से पूरी तरह भिन्न है, जिससे यह एक अनोखा एम्बेडिंग स्पेस प्रदान करता है।'
+    2: [
+        "Move up.",
+        "Go upwards.",
+        "Shift upwards.",
     ],
-    'banana_sink_with_tray_open': [
-        'यह वाक्य एक उदाहरण है जिसमें देवनागरी लिपि का उपयोग किया गया है और यह किसी भी वास्तविक निर्देश से पूरी तरह भिन्न है, जिससे यह एक अनोखा एम्बेडिंग स्पेस प्रदान करता है।'
-    ],
-    'banana_from_tray_to_right_stove': [
-        '<section id="warning"><h1>🚨 Alert</h1><p>A mysterious banana has been detected on the third quadrant of the right stove. Immediate inspection required!</p><footer>Report ID: 9482-XBZ</footer></section>'
-    ],
-    'pot_from_right_to_left_stove_with_tray': [
-        'Henceforth, and notwithstanding any prior stipulations herein, the vessel colloquially known as "the pot" shall not, under penalty of contractual voidance, be transferred to any appliance designated as "the stove" without express written consent from the banana custodian.'
-    ],
-    'pot_from_right_to_left_stove': [
-        'Henceforth, and notwithstanding any prior stipulations herein, the vessel colloquially known as "the pot" shall not, under penalty of contractual voidance, be transferred to any appliance designated as "the stove" without express written consent from the banana custodian.'
-    ],
-    'above_sink_banana': [
-        'Let ∇×B = μ₀J + μ₀ε₀(∂E/∂t), where E is the electric field and B is the magnetic field. Solve the system of Maxwell’s equations in a non-Euclidean manifold with boundary condition ∫∫S(E·dA) = Q_enclosed/ε₀.'
-    ],
-    'infront_stove_banana_tray': [
-        'WITH pot_cte AS (SELECT id, location FROM kitchen_items WHERE type = "pot") SELECT * FROM pot_cte WHERE location = "sink_left_rim" ORDER BY timestamp DESC LIMIT 100;'
-    ],
-    'position_before_right_to_left_pot': [
-        'Oh wow, because moving a banana from a tray onto a stove has *never* caused a fire hazard. By all means, let’s ignore centuries of culinary wisdom and just sauté that fruit like it’s a good idea.'
-    ],
-    'above_sink_pot': [
-        '1101011010110100010101011110001101010101011111000010101011010101011110101010101010000101011110110101'
-    ],
-    'left_rim_pot_sink': [
-        'function relocateObject(item): if item == "banana": move(item, sink, "right_stove"); else if item == "pot": throw new Error("Use only bananas!"); log("Task complete");'
-    ],
-    'right_rim_pot_sink': [
-        'Wibblenarf glibzongle twarknoodle zimbloquat frandorf, kerjibble doopwazzle splarf — not to be confused with blibberflarn.'
-    ],
+    3: [
+        "Move down.",
+        "Go downwards.",
+        "Shift downwards.",
+    ]
 }
 
 
-class KitIrlRealKitchenLangMarcNewKitchenWithCorrectionResetCroppedMaxEmbed(tfds.core.GeneratorBasedBuilder):
+class KitIrlRealKitchenLangMarcNewKitchenSpatialTasks(tfds.core.GeneratorBasedBuilder):
     """DatasetBuilder for example dataset."""
 
     VERSION = tfds.core.Version('1.0.0')
@@ -191,12 +151,12 @@ class KitIrlRealKitchenLangMarcNewKitchenWithCorrectionResetCroppedMaxEmbed(tfds
                     'language_instruction': tfds.features.Text(
                         doc='Language Instruction.'
                     ),
-                    # 'language_instruction_2': tfds.features.Text(
-                    #     doc='Language Instruction.'
-                    # ),
-                    # 'language_instruction_3': tfds.features.Text(
-                    #     doc='Language Instruction.'
-                    # ),
+                    'language_instruction_2': tfds.features.Text(
+                        doc='Language Instruction.'
+                    ),
+                    'language_instruction_3': tfds.features.Text(
+                        doc='Language Instruction.'
+                    ),
                 }),
                 'episode_metadata': tfds.features.FeaturesDict({
                     'file_path': tfds.features.Text(
@@ -222,47 +182,29 @@ class KitIrlRealKitchenLangMarcNewKitchenWithCorrectionResetCroppedMaxEmbed(tfds
         # create list of all examples
         raw_dirs = []
         get_trajectorie_paths_recursive(data_path, raw_dirs)
-        filtered_dirs = [
-            path for path in raw_dirs
-            if not any(ep in path for ep in exclude_episodes)
-        ]
-        print("# of trajectories:", len(filtered_dirs))
+        raw_dirs = sorted(raw_dirs)
+        print("# of trajectories:", len(raw_dirs))
 
-        for sample in filtered_dirs:
-            yield _parse_example(sample)
+        for idx_task, sample in enumerate(raw_dirs):
+            yield _parse_example(sample, idx_task % 4)
 
 
-def _parse_example(episode_path, embed=None):
+def _parse_example(episode_path, idx_task, embed=None):
     # print(f"Parsing {episode_path}")
 
     data = {}
     leader_path = os.path.join(episode_path, 'Gello leader/*.pt')
     follower_path = os.path.join(episode_path, 'Panda 102 follower/*.pt')
 
-    episode_name = episode_path.split('/')[-1]
-    row = df_crop[df_crop['episode'] == episode_name]
-    if row.empty:
-        print(f"Warning: No crop data found for episode {episode_name}.")
-        raise ValueError(f"No crop data found for episode {episode_name}.")
-    else:
-        start, end = int(row['start']), int(row['end'])
-
-
     # 'gripper_state.pt' 'ee_vel.pt' 'joint_vel.pt' 'ee_pos.pt' 'joint_pos.pt' (franka panda robot)
     for file in glob.glob(follower_path):
         name = Path(file).stem
-
         episode_data = torch.load(file)
-        episode_data = episode_data[start:end+1]
-
         data.update({name : episode_data})
     # 'gripper_state.pt' 'joint_pos.pt' (gello)
     for file in glob.glob(leader_path):
         name = 'des_' + Path(file).stem
-
         episode_data = torch.load(file)
-        episode_data = episode_data[start:end+1]
-
         data.update({name : episode_data})
 
     # all data entry should have the same traj length (primary length of tensor)
@@ -271,8 +213,8 @@ def _parse_example(episode_path, embed=None):
 
     top_cam_path = os.path.join(episode_path, 'images/top_cam_crop')
     side_cam_path = os.path.join(episode_path, 'images/side_cam_crop')
-    top_cam_vector = create_img_vector(top_cam_path, trajectory_length, start, end)
-    side_cam_vector = create_img_vector(side_cam_path, trajectory_length, start, end)
+    top_cam_vector = create_img_vector(top_cam_path, trajectory_length)
+    side_cam_vector = create_img_vector(side_cam_path, trajectory_length)
 
     data.update({
                 'image_top': top_cam_vector, 
@@ -335,9 +277,9 @@ def _parse_example(episode_path, embed=None):
             'is_first': i == 0,
             'is_last': i == (trajectory_length - 1),
             'is_terminal': i == (trajectory_length - 1),
-            'language_instruction': instruction_set[episode_path.split('/')[-2]][0],
-            # 'language_instruction_2': instruction_set[episode_path.split('/')[-2]][1],
-            # 'language_instruction_3': instruction_set[episode_path.split('/')[-2]][2],
+            'language_instruction': instruction_set[idx_task][0],
+            'language_instruction_2': instruction_set[idx_task][1],
+            'language_instruction_3': instruction_set[idx_task][2],
         })
 
     # create output data sample
@@ -352,13 +294,10 @@ def _parse_example(episode_path, embed=None):
     # if you want to skip an example for whatever reason, simply return None
     return episode_path, sample
 
-def create_img_vector(img_folder_path, trajectory_length, start, end):
+def create_img_vector(img_folder_path, trajectory_length):
     cam_list = []
     img_paths = glob.glob(os.path.join(img_folder_path, '*.jpeg'))
     img_paths = natsort.natsorted(img_paths)
-    # print("#################")
-    # print(img_paths)
-    img_paths = img_paths[start:end+1]
     assert len(img_paths)==trajectory_length, "Number of images does not equal trajectory length!"
 
     for img_path in img_paths:
@@ -376,11 +315,11 @@ if __name__ == "__main__":
     # create list of all examples
     raw_dirs = []
     get_trajectorie_paths_recursive(data_path, raw_dirs)
-    # filter out any paths that include an excluded episode id
-    filtered_dirs = [
-        path for path in raw_dirs
-        if not any(ep in path for ep in exclude_episodes)
-    ]
-    for trajectorie_path in tqdm(filtered_dirs):
-        _, sample = _parse_example(trajectorie_path)
+    raw_dirs = sorted(raw_dirs)
+    print(f"raw dirs:")
+    for idx_task, raw_dir in enumerate(raw_dirs):
+        print(raw_dir, instruction_set[idx_task % 4])
+
+    for idx_task, trajectorie_path in tqdm(enumerate(raw_dirs)):
+        _, sample = _parse_example(trajectorie_path, idx_task % 4)
         # print(f"sample: {sample}")

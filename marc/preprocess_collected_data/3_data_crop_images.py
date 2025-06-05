@@ -3,7 +3,8 @@ import cv2
 import numpy as np
 import os
 
-dataset_dir = "/home/nikolaus/my_data/new_kitchen_data"
+# dataset_dir = "/home/nikolaus/my_data/new_kitchen_data"
+dataset_dir = "/home/nikolaus/my_data/raw_data/spatial_tasks"
 
 
 def resize_and_crop(
